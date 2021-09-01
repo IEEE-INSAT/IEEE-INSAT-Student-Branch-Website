@@ -1,0 +1,100 @@
+@import url(//db.onlinewebfonts.com/c/dd4d93fe7c0a5ca839a75340d4417f51?family=Formata+Regular);
+body,
+html {
+  /*enable the background image to cover the whole page*/
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Formata', sans-serif;
+  overflow: hidden;
+}
+
+.bgimg {
+  background-image: url("../images/background.jpg");
+  /* Full-screen */
+  min-height: 100vh;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  color: white;
+  font-size: 25px;
+  width: 100%;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.bg-layout {
+  width: 100%;
+  background-color: #0066a193;
+  display: block;
+  min-height: 100vh;
+  height: 100%;
+}
+
+h1 {
+  color: #ddd;
+  font-size: 90px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 80px;
+  }
+  
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+.button-social {
+  background: transparent;
+  border: none;
+  padding: 0 8px;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+}
+.button-social:hover {
+  position: relative;
+  top: -2px;
+  opacity: 0.8;
+}
+.content p {
+  font-size: 14px;
+}
+
+.Countdown {
+  margin: 10px auto;
+  padding-bottom: 20px;
+}
+
+.Countdown-col {
+  display: inline-block;
+}
+
+.Countdown-col-element {
+  display: inline-block;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Countdown-col-element strong {
+  font-size: 60px;
+}
