@@ -46,6 +46,18 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
+                  to="chapters"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-40}
+                >
+                  Chapters
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
                   to="about"
                   smooth={true}
                   duration={500}
@@ -58,19 +70,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="discover"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  Chapters
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
-                  to="services"
+                  to="activities"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -82,7 +82,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="services"
+                  to="awards"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -94,7 +94,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="services"
+                  to="members"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -106,7 +106,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="signup"
+                  to="contact"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -117,9 +117,9 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
             </NavMenu>
-            <NavBtn>
+            {/* <NavBtn>
               <NavBtnLink to="/">Button</NavBtnLink>
-            </NavBtn>
+            </NavBtn> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

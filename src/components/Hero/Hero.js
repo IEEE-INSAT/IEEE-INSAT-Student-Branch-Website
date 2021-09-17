@@ -27,11 +27,9 @@ const Hero = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>INSAT IEEE Student Branch</HeroH1>
-        <HeroP>
-          One Dream, One Team!
-        </HeroP>
+        <HeroP>One Team, One Dream! 💙</HeroP>
         <HeroBtnWrapper>
-          <Button
+          {/* <Button
             to="/"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
@@ -44,7 +42,7 @@ const Hero = () => {
             offset={-80}
           >
             Button {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+          </Button> */}
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
