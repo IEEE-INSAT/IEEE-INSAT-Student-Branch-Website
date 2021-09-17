@@ -1,11 +1,14 @@
-import React from "react";
-import Main from "./containers/Main";
+import './App.css';
+import {BrowserRouter as Router, Switch, Route} from  'react-router-dom'
+import Main from './Main';
 
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <Router>
+      <Switch>
+        <Route path='/' component={Main} exact />
+      </Switch>
+    </Router>
   );
 }
 
