@@ -1,45 +1,49 @@
 {
-  "name": "ieee-coming-soon-page",
-  "description": "React with gatsby",
-  "version": "1.0.0",
+  "homepage": "",
+  "name": "ieee.insat.tn",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "gatsby": "^3.13.0",
-    "gatsby-plugin-gatsby-cloud": "^2.11.0",
-    "gatsby-plugin-image": "^1.13.0",
-    "gatsby-plugin-manifest": "^3.13.0",
-    "gatsby-plugin-offline": "^4.13.0",
-    "gatsby-plugin-react-helmet": "^4.13.0",
-    "gatsby-plugin-sharp": "^3.13.0",
-    "gatsby-source-filesystem": "^3.13.0",
-    "gatsby-transformer-sharp": "^3.13.0",
-    "prop-types": "^15.7.2",
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-particles-js": "^3.5.3"
+    "react-headroom": "^3.1.1",
+    "react-lottie": "^1.2.3",
+    "react-scripts": "^4.0.3",
+    "sass": "^1.41.1",
+    "react-test-renderer": "^17.0.2"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "predeploy": "npm run build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -b master -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
+    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "prettier": "^2.3.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "prettier": "^2.4.1"
   }
 }

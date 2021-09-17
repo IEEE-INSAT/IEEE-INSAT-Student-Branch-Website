@@ -1,0 +1,7 @@
+@import "../config";
+
+.dark-mode {
+  background-color: $darkBG;
+  color: white;
+  transition: "0.1s";
+}
