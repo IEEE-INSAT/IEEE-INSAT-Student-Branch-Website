@@ -43,7 +43,7 @@ const Hero = () => {
             exact="true"
             offset={-80}
           >
-            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+            Button {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
