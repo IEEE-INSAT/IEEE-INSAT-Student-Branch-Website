@@ -14,6 +14,7 @@ import {
 } from "./NavbarStyle";
 import { animateScroll as scroll } from "react-scroll";
 import logo from "../../assets/images/logo.png";
+
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {

@@ -1,10 +1,10 @@
 import React from "react";
-import CS from "../../assets/images/cs.png";
-import RAS from "../../assets/images/ras.jpg";
-import IAS from "../../assets/images/ias.png";
-import PES from "../../assets/images/pes.jpg";
-import EMBS from "../../assets/images/embs.jpg";
-import NPSS from "../../assets/images/npss.jpg";
+import CS from "../../assets/images/chapters/cs.png";
+import RAS from "../../assets/images/chapters/ras.jpg";
+import IAS from "../../assets/images/chapters/ias.png";
+import PES from "../../assets/images/chapters/pes.jpg";
+import EMBS from "../../assets/images/chapters/embs.jpg";
+import NPSS from "../../assets/images/chapters/npss.jpg";
 import {
   ChaptersContainer,
   ChaptersH1,
@@ -24,8 +24,8 @@ const Chapters = () => {
           <ChaptersIcon src={CS} />
           <ChaptersH2>CS Chapter</ChaptersH2>
           <ChaptersP>
-            The INSAT IEEE Computer Society Chapter is known for its technical
-            side specifically in the IT industry.
+            The INSAT IEEE Computer Society Chapter is known for its scope in
+            advancing the theory, practice, and uses of computing technologies.
           </ChaptersP>
         </ChaptersCard>
         <ChaptersCard>
@@ -49,8 +49,8 @@ const Chapters = () => {
           <ChaptersH2>PES Chapter</ChaptersH2>
           <ChaptersP>
             The INSAT IEEE Power and Energy Society Chapter focuses on the
-            scientific and engineering knowledge about electric power and
-            energy.
+            scientific and engineering knowledge about different types of power
+            and energy.
           </ChaptersP>
         </ChaptersCard>
         <ChaptersCard>

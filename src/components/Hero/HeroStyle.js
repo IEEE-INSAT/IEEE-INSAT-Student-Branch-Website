@@ -50,29 +50,29 @@ export const HeroContent = styled.div`
 `;
 export const HeroH1 = styled.h1`
   color: #fff;
-  font-size: 55px;
+  font-size: 70px;
   text-align: center;
 
   @media screen and (max-width: 768px) {
-    font-size: 34px;
+    font-size: 38px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 26px;
+    font-size: 34px;
   }
 `;
 
 export const HeroP = styled.p`
   margin-top: 7px;
   color: #fff;
-  font-size: 23px;
+  font-size: 28px;
   text-align: center;
   max-width: 600px;
 
   @media screen and (max-width: 768px) {
-    font-size: 18px;
+    font-size: 22px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 14px;
+    font-size: 16px;
   }
 `;
 export const HeroBtnWrapper = styled.div`
