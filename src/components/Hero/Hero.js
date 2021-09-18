@@ -32,7 +32,7 @@ const Hero = () => {
             options={{
               strings: [
                 "IEEE INSAT STUDENT BRANCH",
-                "Advancing Technology for Humanity",
+                "Advancing Technology for Humanity"
               ],
               autoStart: true,
               loop: true,
