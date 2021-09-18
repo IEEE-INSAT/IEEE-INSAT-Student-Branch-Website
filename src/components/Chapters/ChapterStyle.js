@@ -9,7 +9,7 @@ export const ChaptersContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1950px;
   }
 
   @media screen and (max-width: 480px) {
@@ -31,7 +31,7 @@ export const ChaptersWrapper = styled.div`
 
   @media screen and (max-width: 786px) {
     grid-template-columns: 1fr;
-    padding: 0 20px;
+    padding: 0 74px;
   }
 `;
 export const ChaptersCard = styled.div`
@@ -42,12 +42,12 @@ export const ChaptersCard = styled.div`
   align-items: center;
   border-radius: 10px;
   max-height: 340px;
-  padding: 30px;
+  padding: 20px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.04);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
@@ -69,9 +69,15 @@ export const ChaptersH1 = styled.h1`
 export const ChaptersH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 1.1rem;
+  }
 `;
 
 export const ChaptersP = styled.p`
   font-size: 1rem;
   text-align: center;
+  @media screen and (max-width: 768px){
+    font-size: .9rem;
+  }
 `;
