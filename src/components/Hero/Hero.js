@@ -12,6 +12,7 @@ import {
   ArrowRight
 } from "./HeroStyle";
 import { Button } from "../ButtonStyle";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   const [hover, setHover] = useState(false);
@@ -26,7 +27,19 @@ const Hero = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>INSAT IEEE STUDENT BRANCH</HeroH1>
+        <HeroH1>
+          <Typewriter
+            options={{
+              strings: [
+                "IEEE INSAT STUDENT BRANCH",
+                "Advancing Technology for Humanity",
+              ],
+              autoStart: true,
+              loop: true,
+              deleteSpeed: 30
+            }}
+          />
+        </HeroH1>
         <HeroP>One Team, One Dream! 💙</HeroP>
         <HeroBtnWrapper>
           {/* <Button
