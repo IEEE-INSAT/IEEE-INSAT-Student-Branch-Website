@@ -26,7 +26,7 @@ const Hero = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>INSAT IEEE Student Branch</HeroH1>
+        <HeroH1>INSAT IEEE STUDENT BRANCH</HeroH1>
         <HeroP>One Team, One Dream! 💙</HeroP>
         <HeroBtnWrapper>
           {/* <Button
