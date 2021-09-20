@@ -4,6 +4,7 @@ import Sidebar from "./components/SideBar/Sidebar";
 import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 import Chapters from "./components/Chapters/Chapters";
+import About from "./components/About/About";
 
 const Main = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +17,7 @@ const Main = () => {
       <Navbar toggle={toggle} />
       <Hero />
       <Chapters />
+      <About />
       <Footer />
     </>
   );

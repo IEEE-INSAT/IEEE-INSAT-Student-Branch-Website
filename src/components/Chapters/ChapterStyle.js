@@ -5,7 +5,7 @@ export const ChaptersContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
   background: #010606;
 
   @media screen and (max-width: 1000px) {
