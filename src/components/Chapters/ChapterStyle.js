@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ChaptersContainer = styled.div`
-  height: 900px;
+  height: 1250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,14 +9,14 @@ export const ChaptersContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 1000px) {
-    height: 1200px;
+    height: 1300px;
   }
   @media screen and (max-width: 768px) {
-    height: 1950px;
+    height: 2100px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 2200px;
+    height: 2300px;
   }
 `;
 export const ChaptersWrapper = styled.div`
@@ -90,4 +90,10 @@ export const ChaptersP = styled.p`
   @media screen and (max-width: 768px) {
     font-size: 0.9rem;
   }
+`;
+
+export const HiddenCard = styled.div`
+visibility: hidden;
+width: 0;
+height: 0;
 `;

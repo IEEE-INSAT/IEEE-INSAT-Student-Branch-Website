@@ -54,6 +54,9 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 45px;
+  @media screen and (max-width: 1000px){
+    font-size: 45px;
+  }
   @media screen and (max-width: 480px) {
       font-size: 39px;
       margin-bottom: 33px;
@@ -94,9 +97,21 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
-  img{
-      width: 600px;
-      height: 906px;
+  img {
+    width: 600px;
+    height: 906px;
+  }
+  @media screen and (max-width: 768px) {
+    img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    img {
+      width: 300px;
+      height: 330px;
+    }
   }
 `;
 export const Img = styled.img`

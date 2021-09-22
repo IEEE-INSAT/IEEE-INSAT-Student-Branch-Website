@@ -52,7 +52,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-40}
+                  offset={100}
                 >
                   Chapters
                 </NavLinks>
