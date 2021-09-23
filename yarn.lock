@@ -1931,10 +1931,10 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@testing-library/dom@^8.0.0":
-  version "8.5.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.5.0.tgz#56e31331015f943a68c6ec27e259fdf16c69ab7d"
-  integrity sha512-O0fmHFaPlqaYCpa/cBL0cvroMridb9vZsMLacgIqrlxj+fd+bGF8UfAgwsLCHRF84KLBafWlm9CuOvxeNTlodw==
+"@testing-library/dom@^7.28.1":
+  version "7.31.2"
+  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.31.2.tgz#df361db38f5212b88555068ab8119f5d841a8c4a"
+  integrity sha512-3UqjCpey6HiTZT92vODYLPxTBWlM8ZOOjr3LX5F37/VRipW2M1kX6I/Cm4VXzteZqfGfagg8yXywpcOgQBlNsQ==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
@@ -1943,7 +1943,7 @@
     chalk "^4.1.0"
     dom-accessibility-api "^0.5.6"
     lz-string "^1.4.4"
-    pretty-format "^27.0.2"
+    pretty-format "^26.6.2"
 
 "@testing-library/jest-dom@^5.14.1":
   version "5.14.1"
@@ -1960,13 +1960,13 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/react@^12.1.0":
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-12.1.0.tgz#3e9a4002b0b8f986a738a2f88fc458b5af319f35"
-  integrity sha512-Ge3Ht3qXE82Yv9lyPpQ7ZWgzo/HgOcHu569Y4ZGWcZME38iOFiOg87qnu6hTEa8jTJVL7zYovnvD3GE2nsNIoQ==
+"@testing-library/react@^11.0.0":
+  version "11.2.7"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-11.2.7.tgz#b29e2e95c6765c815786c0bc1d5aed9cb2bf7818"
+  integrity sha512-tzRNp7pzd5QmbtXNG/mhdcl7Awfu/Iz1RaVHY75zTdOkmHCuzMhRL83gWHSgOAcjS3CCbyfwUHMZgRJb4kAfpA==
   dependencies:
     "@babel/runtime" "^7.12.5"
-    "@testing-library/dom" "^8.0.0"
+    "@testing-library/dom" "^7.28.1"
 
 "@testing-library/user-event@^13.2.1":
   version "13.2.1"
@@ -3489,20 +3489,12 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001181:
-  version "1.0.30001191"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001191.tgz#bacb432b6701f690c8c5f7c680166b9a9f0843d9"
-  integrity sha512-xJJqzyd+7GCJXkcoBiQ1GuxEiOBCLQ0aVW9HMekifZsAVGdj5eJ4mFB9fEhSHipq9IOk/QXFJUiIr9lZT+EsGw==
-
-caniuse-lite@^1.0.30001125:
-  version "1.0.30001258"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001258.tgz#b604eed80cc54a578e4bf5a02ae3ed49f869d252"
-  integrity sha512-RBByOG6xWXUp0CR2/WU2amXz3stjKpSl5J1xU49F1n2OxD//uBZO4wCKUiG+QMGf7CHGfDDcqoKriomoGVxTeA==
-
-caniuse-lite@^1.0.30001254:
-  version "1.0.30001257"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001257.tgz#150aaf649a48bee531104cfeda57f92ce587f6e5"
-  integrity sha512-JN49KplOgHSXpIsVSF+LUyhD8PUp6xPpAXeRrrcBh4KBeP7W864jHn6RvzJgDlrReyeVjMFJL3PLpPvKIxlIHA==
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001181, caniuse-lite@^1.0.30001254:
+  version "1.0.30001260"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001260.tgz"
+  integrity sha512-Fhjc/k8725ItmrvW5QomzxLeojewxvqiYCKeFcfFEhut28IVLdpHU19dneOmltZQIE5HNbawj1HYD+1f2bM1Dg==
+  dependencies:
+    nanocolors "^0.1.0"
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -4778,7 +4770,7 @@ es-abstract@^1.18.0-next.1, es-abstract@^1.18.0-next.2:
     string.prototype.trimend "^1.0.3"
     string.prototype.trimstart "^1.0.3"
 
-es-abstract@^1.18.2:
+es-abstract@^1.18.1, es-abstract@^1.18.2:
   version "1.18.6"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.18.6.tgz#2c44e3ea7a6255039164d26559777a6d978cb456"
   integrity sha512-kAeIT4cku5eNLNuUKhlmtuk1/TRZvQoYccn6TO0cSVdf1kzB0T7+dYuVK9MWM7l+/53W2Q8M7N2c6MQvhXFcUQ==
@@ -4955,7 +4947,7 @@ eslint-plugin-react-hooks@^4.2.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.2.0.tgz#8c229c268d468956334c943bb45fc860280f5556"
   integrity sha512-623WEiZJqxR7VdxFCKLI6d6LLpwJkGPYKODnkH3D7WpOG5KM8yWueBd8TLsNAetEJNF5iJmolaAKO3F8yzyVBQ==
 
-eslint-plugin-react@^7.21.5, eslint-plugin-react@^7.25.2:
+eslint-plugin-react@^7.21.5:
   version "7.25.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.25.2.tgz#d567a217d306b76dd110561f28074e2328ae38f8"
   integrity sha512-elx4585wgmryanJK4C5IoSKQyVZ+e7H0t2JOOtJNBql0cuercvSShvRReuLBbfx8687yW5yv+UL7pXwMsd6adQ==
@@ -4972,6 +4964,26 @@ eslint-plugin-react@^7.21.5, eslint-plugin-react@^7.25.2:
     object.values "^1.1.4"
     prop-types "^15.7.2"
     resolve "^2.0.0-next.3"
+    string.prototype.matchall "^4.0.5"
+
+eslint-plugin-react@^7.26.0:
+  version "7.26.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.26.0.tgz#3ae019a35d542b98e5af9e2f96b89c232c74b55b"
+  integrity sha512-dceliS5itjk4EZdQYtLMz6GulcsasguIs+VTXuiC7Q5IPIdGTkyfXVdmsQOqEhlD9MciofH4cMcT1bw1WWNxCQ==
+  dependencies:
+    array-includes "^3.1.3"
+    array.prototype.flatmap "^1.2.4"
+    doctrine "^2.1.0"
+    estraverse "^5.2.0"
+    jsx-ast-utils "^2.4.1 || ^3.0.0"
+    minimatch "^3.0.4"
+    object.entries "^1.1.4"
+    object.fromentries "^2.0.4"
+    object.hasown "^1.0.0"
+    object.values "^1.1.4"
+    prop-types "^15.7.2"
+    resolve "^2.0.0-next.3"
+    semver "^6.3.0"
     string.prototype.matchall "^4.0.5"
 
 eslint-plugin-testing-library@^3.9.2:
@@ -7882,6 +7894,11 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
 
+nanocolors@^0.1.0:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.1.12.tgz#8577482c58cbd7b5bb1681db4cf48f11a87fd5f6"
+  integrity sha512-2nMHqg1x5PU+unxX7PGY7AuYxl2qDx7PSrTRjizr8sxdd3l/3hBuWWaki62qmtYm2U5i4Z5E7GbjlyDFhs9/EQ==
+
 nanoid@^3.1.23:
   version "3.1.25"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.25.tgz#09ca32747c0e543f0e1814b7d3793477f9c8e152"
@@ -8174,6 +8191,14 @@ object.getownpropertydescriptors@^2.0.3, object.getownpropertydescriptors@^2.1.0
     call-bind "^1.0.2"
     define-properties "^1.1.3"
     es-abstract "^1.18.0-next.2"
+
+object.hasown@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/object.hasown/-/object.hasown-1.0.0.tgz#bdbade33cfacfb25d7f26ae2b6cb870bf99905c2"
+  integrity sha512-qYMF2CLIjxxLGleeM0jrcB4kiv3loGVAjKQKvH8pSU/i2VcRRvUNmxbD+nEMmrXRfORhuVJuH8OtSYCZoue3zA==
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.18.1"
 
 object.pick@^1.3.0:
   version "1.3.0"
@@ -9347,7 +9372,7 @@ pretty-format@^26.6.0, pretty-format@^26.6.2:
     ansi-styles "^4.0.0"
     react-is "^17.0.1"
 
-pretty-format@^27.0.0, pretty-format@^27.0.2, pretty-format@^27.2.0:
+pretty-format@^27.0.0, pretty-format@^27.2.0:
   version "27.2.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.2.0.tgz#ee37a94ce2a79765791a8649ae374d468c18ef19"
   integrity sha512-KyJdmgBkMscLqo8A7K77omgLx5PWPiXJswtTtFV7XgVZv2+qPk6UivpXXO+5k6ZEbWIbLoKdx1pZ6ldINzbwTA==
