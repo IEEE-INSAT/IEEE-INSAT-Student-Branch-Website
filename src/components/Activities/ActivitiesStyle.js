@@ -13,7 +13,7 @@ export const Container = styled.div`
 
 export const Card = styled.div`
   width: 700px;
-  background-color: #1c1d29;
+  background-color: #171515;
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
 `;
