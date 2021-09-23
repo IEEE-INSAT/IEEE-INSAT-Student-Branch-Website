@@ -1,28 +1,55 @@
 import React from "react";
 import ReactCardCarousel from "react-card-carousel";
-import { CardContainer, Card } from "./ActivitiesStyle";
+import {
+  Container,
+  Card,
+  CardContainer,
+  ImageWrapper,
+  Description,
+  InfoContainer,
+  ActivityTitle,
+  ActivityDescription
+} from "./ActivitiesStyle";
 import test from "../../assets/images/test.jpg";
 const Activities = () => {
   return (
-    <CardContainer id="activities">
+    <Container id="activities">
       <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
         <Card>
-          <img src={test} alt="test" />
+          <CardContainer direction="50deg" color1="blue" color2="#00629b">
+            <ImageWrapper src={test} alt="test"></ImageWrapper>
+          </CardContainer>
+          <InfoContainer>
+            <ActivityTitle>Title</ActivityTitle>
+            <ActivityDescription>
+              tetatatatatatatatatatatatatatatatatatatatat
+            </ActivityDescription>
+          </InfoContainer>
         </Card>
         <Card>
-          First
-          <img src={test} alt="test" />
+          <CardContainer direction="55deg" color1="yellow" color2="#00ff00">
+            <ImageWrapper src={test} alt="test"></ImageWrapper>
+          </CardContainer>
+          <InfoContainer>
+            <ActivityTitle>Title</ActivityTitle>
+            <ActivityDescription>
+              tetatatatatatatatatatatatatatatatatatatatat
+            </ActivityDescription>
+          </InfoContainer>
         </Card>
         <Card>
-          First
-          <img src={test} alt="test" />
-        </Card>
-        <Card>
-          First
-          <img src={test} alt="test" />
+          <CardContainer direction="170deg" color1="green" color2="#00ff00">
+            <ImageWrapper src={test} alt="test"></ImageWrapper>
+          </CardContainer>
+          <InfoContainer>
+            <ActivityTitle>Title</ActivityTitle>
+            <ActivityDescription>
+              tetatatatatatatatatatatatatatatatatatatatat
+            </ActivityDescription>
+          </InfoContainer>
         </Card>
       </ReactCardCarousel>
-    </CardContainer>
+    </Container>
   );
 };
 
