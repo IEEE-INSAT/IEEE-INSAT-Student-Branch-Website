@@ -12,6 +12,7 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.div`
+  width: 700px;
   background-color: #1c1b29;
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
@@ -20,6 +21,7 @@ export const Card = styled.div`
 export const CardContainer = styled.div`
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  height: 400px;
   &:after {
     content: "";
     height: 100%;
@@ -41,7 +43,7 @@ export const ImageWrapper = styled.img`
 `;
 
 export const InfoContainer = styled.div`
-  padding: 20px 10px;
+  padding: 20px 15px;
 `;
 
 export const ActivityTitle = styled.h3`
