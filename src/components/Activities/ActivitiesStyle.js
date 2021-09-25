@@ -30,7 +30,7 @@ export const CardContainer = styled.div`
     top: 0;
     left: 0;
     border-radius: 20px 20px 0 0;
-    opacity: 0.25;
+    opacity: ${(props) => props.opacity ? props.opacity : "0"};
     background-image: ${(props) =>
       `linear-gradient(${props.direction}, ${props.color1}, ${props.color2})`};
   }
