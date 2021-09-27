@@ -6,7 +6,7 @@ import {
   InfoContainer,
   ActivityTitle,
   ActivityDescription
-} from "./Style";
+} from "./ActivityStyle";
 
 const ActivityTemplate = ({
   GradientDirection,

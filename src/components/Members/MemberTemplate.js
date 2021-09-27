@@ -4,7 +4,7 @@ import {
   FaInstagramSquare,
   FaLinkedin
 } from "react-icons/fa";
-import "./MemberTemplate.css";
+import "./MemberStyle.css";
 import Flip from "react-reveal/Flip";
 
 const MemberTemplate = ({ Photo, Name, Position, FB, INSTA, Linked }) => {
