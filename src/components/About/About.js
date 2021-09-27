@@ -25,7 +25,7 @@ const About = () => {
       <InfoContainer lightBg="true" id="about">
         <InfoWrapper>
           <InfoRow imgStart="false">
-            <Slide bottom cascade>
+            <Slide right cascade>
               <Column1>
                 <TextWrapper>
                   <TopLine>What is IEEE?</TopLine>
@@ -34,18 +34,18 @@ const About = () => {
                     organization dedicated to advancing technology for the
                     benefit of humanity. IEEE and its members inspire a global
                     community through its highly cited publications,
-                    conferences, technology standards, and professional and
+                    conferenéces, technology standards, and professional and
                     educational activities.
                   </Subtitle>
                 </TextWrapper>
               </Column1>
             </Slide>
             <Column2>
-              <ImgWrap>
-                <Slide Left>
+              <Slide right>
+                <ImgWrap>
                   <Img src={SVG3} alt="About" />
-                </Slide>
-              </ImgWrap>
+                </ImgWrap>
+              </Slide>
             </Column2>
           </InfoRow>
         </InfoWrapper>
@@ -54,7 +54,7 @@ const About = () => {
       <InfoContainer lightBg="true">
         <InfoWrapper>
           <InfoRow imgStart="true">
-            <Slide Bottom cascade>
+            <Slide top cascade>
               <Column1>
                 <TextWrapper>
                   <TopLine>IEEE Tunisia Section</TopLine>
@@ -70,11 +70,11 @@ const About = () => {
               </Column1>
             </Slide>
             <Column2>
-              <ImgWrap>
-                <Slide Left>
+              <Slide left>
+                <ImgWrap>
                   <Img src={SVG3} alt="About" />
-                </Slide>
-              </ImgWrap>
+                </ImgWrap>
+              </Slide>
             </Column2>
           </InfoRow>
         </InfoWrapper>
@@ -97,11 +97,11 @@ const About = () => {
               </Column1>
             </Slide>
             <Column2>
+            <Slide bottom>
               <ImgWrap>
-                <Slide Left>
-                  <Img src={SVG3} alt="About" />
-                </Slide>
+                <Img src={SVG3} alt="About" />
               </ImgWrap>
+              </Slide>
             </Column2>
           </InfoRow>
         </InfoWrapper>

@@ -55,7 +55,7 @@ export const ActivityTitle = styled.h3`
 
 export const ActivityDescription = styled.p`
   color: #a0a0a0;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 30px;
   font-weight: 400;
 `;
