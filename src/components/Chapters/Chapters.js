@@ -1,5 +1,5 @@
 import React from "react";
-import ReactCardCarousel from "react-card-carousel";
+import Bounce from "react-reveal/Bounce";
 import CS from "../../assets/images/chapters/cs.png";
 import RAS from "../../assets/images/chapters/ras.jpg";
 import IAS from "../../assets/images/chapters/ias.png";
@@ -22,7 +22,9 @@ const Chapters = () => {
   return (
     <ChaptersContainer id="chapters">
       {/* <ChaptersH1>IEEE Chapters</ChaptersH1> */}
+      
         <ChaptersWrapper>
+          <Bounce Left>
           <ChaptersCard>
             <ChaptersIcon src={CS} />
             <ChaptersH2>CS Chapter</ChaptersH2>
@@ -32,6 +34,8 @@ const Chapters = () => {
               technologies.
             </ChaptersP>
           </ChaptersCard>
+          </Bounce>
+          <Bounce Left>
           <ChaptersCard>
             <ChaptersIcon src={RAS} />
             <ChaptersH2>RAS Chapter</ChaptersH2>
@@ -40,6 +44,8 @@ const Chapters = () => {
               technical side specifically in the Robotics and IoT industries.
             </ChaptersP>
           </ChaptersCard>
+          </Bounce>
+          <Bounce Left>
           <ChaptersCard>
             <ChaptersIcon src={IAS} />
             <ChaptersH2>IAS Chapter</ChaptersH2>
@@ -48,6 +54,8 @@ const Chapters = () => {
               its applications of electrical and electronic systems.
             </ChaptersP>
           </ChaptersCard>
+          </Bounce>
+          <Bounce Left>
           <ChaptersCard>
             <ChaptersIcon src={PES} />
             <ChaptersH2>PES Chapter</ChaptersH2>
@@ -57,6 +65,8 @@ const Chapters = () => {
               power and energy.
             </ChaptersP>
           </ChaptersCard>
+          </Bounce>
+          <Bounce Left>
           <ChaptersCard>
             <ChaptersIcon src={EMBS} />
             <ChaptersH2>EMBS Chapter</ChaptersH2>
@@ -66,6 +76,8 @@ const Chapters = () => {
               Biology-related topics.
             </ChaptersP>
           </ChaptersCard>
+          </Bounce>
+          <Bounce Left>
           <ChaptersCard>
             <ChaptersIcon src={NPSS} />
             <ChaptersH2>NPSS Chapter</ChaptersH2>
@@ -75,6 +87,7 @@ const Chapters = () => {
               particle accelerators...
             </ChaptersP>
           </ChaptersCard>
+          </Bounce>
           {/* <ChaptersCard>
             <ChaptersIcon src={WIE} />
             <ChaptersH2>WIE Affinity Group</ChaptersH2>

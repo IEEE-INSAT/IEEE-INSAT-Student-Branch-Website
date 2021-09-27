@@ -17,7 +17,7 @@ import Soon from "../../assets/images/actitivites/Coming Soon.jpg";
 const Activities = () => {
   return (
     <Container id="activities">
-      <ReactCardCarousel autoplay={true} autoplay_speed={6000}>
+      <ReactCardCarousel autoplay={true} autoplay_speed={4000}>
         <Card>
           <CardContainer direction="190deg" color1="#0000ff" color2="#000" opacity="0.3">
             <ImageWrapper src={SC} alt="Summer School 4.0"></ImageWrapper>
