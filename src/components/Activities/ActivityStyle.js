@@ -30,7 +30,7 @@ export const CardContainer = styled.div`
     top: 0;
     left: 0;
     border-radius: 20px 20px 0 0;
-    opacity: ${(props) => props.opacity ? props.opacity : "0"};
+    opacity: ${(props) => (props.opacity ? props.opacity : "0")};
     background-image: ${(props) =>
       `linear-gradient(${props.direction}, ${props.color1}, ${props.color2})`};
   }
@@ -49,13 +49,13 @@ export const InfoContainer = styled.div`
 export const ActivityTitle = styled.h3`
   color: #ffffff;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   margin: 10px 0 15px 0;
 `;
 
 export const ActivityDescription = styled.p`
   color: #a0a0a0;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 30px;
   font-weight: 400;
 `;

@@ -18,11 +18,12 @@ h1 {
 .img-hover-zoom--colorize img {
   border-radius: 50%;
   width: 150px;
-  height: auto;
+  height: 200px;
   margin-top: 20px;
   padding: 1px;
   transition: transform 0.5s;
   filter: grayscale(100%);
+  
 }
 
 .img-hover-zoom--colorize:hover img {
@@ -77,5 +78,11 @@ h1 {
   .h1,
   h1 {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .img-hover-zoom--colorize img {
+    width: 200px;
   }
 }

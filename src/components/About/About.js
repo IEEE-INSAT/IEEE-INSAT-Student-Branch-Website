@@ -41,9 +41,9 @@ const About = () => {
               </Column1>
             </Slide>
             <Column2>
-              <Slide right>
+              <Slide left>
                 <ImgWrap>
-                  <Img src={SVG3} alt="About" />
+                  <Img src={SVG1} alt="About" />
                 </ImgWrap>
               </Slide>
             </Column2>
@@ -54,7 +54,7 @@ const About = () => {
       <InfoContainer lightBg="true">
         <InfoWrapper>
           <InfoRow imgStart="true">
-            <Slide top cascade>
+            <Slide right cascade>
               <Column1>
                 <TextWrapper>
                   <TopLine>IEEE Tunisia Section</TopLine>
@@ -72,7 +72,7 @@ const About = () => {
             <Column2>
               <Slide left>
                 <ImgWrap>
-                  <Img src={SVG3} alt="About" />
+                  <Img src={SVG2} alt="About" />
                 </ImgWrap>
               </Slide>
             </Column2>
@@ -82,7 +82,7 @@ const About = () => {
       <InfoContainer lightBg="true" id="about">
         <InfoWrapper>
           <InfoRow imgStart="false">
-            <Slide bottom cascade>
+            <Slide top cascade>
               <Column1>
                 <TextWrapper>
                   <TopLine>IEEE INSAT Student Branch</TopLine>
