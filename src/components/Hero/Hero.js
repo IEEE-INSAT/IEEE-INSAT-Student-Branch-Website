@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import RubberBand from "react-reveal/RubberBand";
 import Video from "../../assets/videos/video.mp4";
 import {
   HeroContainer,
@@ -40,7 +41,9 @@ const Hero = () => {
             }}
           />
         </HeroH1>
-        <HeroP>One Team, One Dream! 💙</HeroP>
+        <RubberBand>
+          <HeroP>One Team, One Dream! 💙</HeroP>
+        </RubberBand>
         <HeroBtnWrapper>
           {/* <Button
             to="/"

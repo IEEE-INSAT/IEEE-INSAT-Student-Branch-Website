@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Chapters from "./components/Chapters/Chapters";
 import About from "./components/About/About";
 import Activities from "./components/Activities/Activities";
+import Members from "./components/Members/Members";
 
 const Main = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,7 @@ const Main = () => {
       <Chapters />
       <About />
       <Activities />
+      <Members />
       <Footer />
     </>
   );
