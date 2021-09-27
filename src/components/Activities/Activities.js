@@ -11,12 +11,21 @@ const Activities = () => {
     <Container id="activities">
       <ReactCardCarousel autoplay={true} autoplay_speed={4000}>
         <ActivityTemplate
-          GradientDirection="190deg"
-          GradientColor1="#000ff"
-          GradientColor2="#000"
-          opacity="0.3"
+          GradientDirection="120deg"
+          GradientColor1="#a142f5"
+          GradientColor2="#0000ff"
+          opacity="0.7"
           Photo={SC}
           Title="Summer School 4.0"
+          Description="test"
+        />
+        <ActivityTemplate
+          GradientDirection="190deg"
+          GradientColor1="yellow"
+          GradientColor2="#000"
+          opacity="0.3"
+          Photo={IDay}
+          Title="Integration Day"
           Description="test"
         />
         <ActivityTemplate
@@ -24,8 +33,8 @@ const Activities = () => {
           GradientColor1="#000ff"
           GradientColor2="#000"
           opacity="0.3"
-          Photo={SC}
-          Title="Summer School 4.0"
+          Photo={Soon}
+          Title="IEEE Day"
           Description="test"
         />
         <ActivityTemplate
@@ -33,8 +42,8 @@ const Activities = () => {
           GradientColor1="#000ff"
           GradientColor2="#000"
           opacity="0.3"
-          Photo={SC}
-          Title="Summer School 4.0"
+          Photo={Soon}
+          Title="Triple-I Conference"
           Description="test"
         />
         <ActivityTemplate
@@ -42,8 +51,8 @@ const Activities = () => {
           GradientColor1="#000ff"
           GradientColor2="#000"
           opacity="0.3"
-          Photo={SC}
-          Title="Summer School 4.0"
+          Photo={Soon}
+          Title="Tunisian Young & Student Professionals"
           Description="test"
         />
         <ActivityTemplate
@@ -51,8 +60,17 @@ const Activities = () => {
           GradientColor1="#000ff"
           GradientColor2="#000"
           opacity="0.3"
-          Photo={SC}
-          Title="Summer School 4.0"
+          Photo={Soon}
+          Title="Winter School"
+          Description="test"
+        />
+        <ActivityTemplate
+          GradientDirection="190deg"
+          GradientColor1="#000ff"
+          GradientColor2="#000"
+          opacity="0.3"
+          Photo={Soon}
+          Title="Student Professional Awareness"
           Description="test"
         />
       </ReactCardCarousel>
