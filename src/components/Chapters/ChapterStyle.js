@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ChaptersContainer = styled.div`
-  height: 860px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
