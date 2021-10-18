@@ -1,9 +1,9 @@
-
 h1 {
   text-align: center;
 }
 
 .timeline-container {
+  background: #fff;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -17,7 +17,7 @@ h1 {
   position: absolute;
   left: calc(50% - 2px);
   width: 4px;
-  height: 100%;
+  height: 98%;
 }
 
 .timeline-item {

@@ -54,13 +54,13 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 30px;
-  @media screen and (max-width: 1000px){
+  @media screen and (max-width: 1000px) {
     font-size: 45px;
   }
   @media screen and (max-width: 480px) {
-      font-size: 39px;
-      margin-bottom: 33px;
-      letter-spacing: 1.2px;
+    font-size: 39px;
+    margin-bottom: 33px;
+    letter-spacing: 1.2px;
   }
 `;
 
@@ -82,7 +82,7 @@ export const Subtitle = styled.p`
   line-height: 32px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
   @media screen and (max-width: 768px) {
-    font-size: 22px; 
+    font-size: 22px;
   }
   @media screen and (max-width: 480px) {
     font-size: 19px;

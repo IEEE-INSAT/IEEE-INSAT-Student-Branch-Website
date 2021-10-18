@@ -1,51 +1,38 @@
-import React from "react";
+import React, { FC } from "react";
 import {
   FaFacebookSquare,
   FaInstagramSquare,
   FaLinkedin
 } from "react-icons/fa";
-import "./MemberStyle.css";
-import Flip from "react-reveal/Flip";
+import "./style.css";
+import Slide from "react-reveal/Slide";
 
-const MemberTemplate = ({ Photo, Name, Position, FB, INSTA, Linked }) => {
+interface Props {
+  Photo: string;
+  Name: string;
+  Position: string;
+  FB: string;
+  INSTA: string;
+  Linked: string;
+}
+const MemberTemplate: FC<Props> = ({ Photo, Name, Position, FB, INSTA, Linked }) => {
   return (
-    <Flip left>
-      <div className="col">
-        <div className="card h-100 shadow-sm">
-          <div className="text-center">
-            <div className="img-hover-zoom img-hover-zoom--colorize">
-              <img className="shadow" src={Photo} alt={Photo} />
-            </div>
-          </div>
-
-          <div className="card-body">
-            <div className="clearfix mb-3"></div>
-
-            <div className="my-2 text-center">
-              <h1>{Name}</h1>
-            </div>
-            <div className="mb-3">
-              <h2 className="text-uppercase text-center role">{Position}</h2>
-            </div>
-            <div className="box">
-              <div>
-                <ul className="list-inline">
-                  <li className="list-inline-item">
-                    <FaFacebookSquare className="fab" />
-                  </li>
-                  <li className="list-inline-item">
-                    <FaInstagramSquare className="fab" />
-                  </li>
-                  <li className="list-inline-item">
-                    <FaLinkedin className="fab" />
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Flip>
+    <Slide left>
+    <li className= "member" >
+    <div className="member-image" >
+      <img src={ Photo } />
+        < /div>
+        < div className = "member-info" >
+          <h3>{ Name } < /h3>
+          < p > { Position } < /p>
+          < div className = "social-link" >
+            <FaFacebookSquare className="fab fa-facebook-f" href = { FB } />
+              <FaInstagramSquare className="fab fa-twitter" href = { INSTA } />
+                <FaLinkedin className="fab fa-linkedin-in" href = { Linked } />
+                  </div>
+                  < /div>
+                  < /li>
+                  </Slide>
   );
 };
 
