@@ -53,7 +53,7 @@ const About = () => {
 
       <InfoContainer lightBg="true">
         <InfoWrapper>
-          <InfoRow imgStart="true">
+          <InfoRow imgStart="false">
             <Slide right cascade>
               <Column1>
                 <TextWrapper>

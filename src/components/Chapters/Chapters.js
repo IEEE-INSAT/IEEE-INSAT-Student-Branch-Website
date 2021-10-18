@@ -22,9 +22,9 @@ const Chapters = () => {
   return (
     <ChaptersContainer id="chapters">
       {/* <ChaptersH1>IEEE Chapters</ChaptersH1> */}
-      
-        <ChaptersWrapper>
-          <Bounce Left>
+
+      <ChaptersWrapper>
+        <Bounce Left>
           <ChaptersCard>
             <ChaptersIcon src={CS} />
             <ChaptersH2>CS Chapter</ChaptersH2>
@@ -34,30 +34,48 @@ const Chapters = () => {
               technologies.
             </ChaptersP>
           </ChaptersCard>
-          </Bounce>
-          <Bounce Left>
+        </Bounce>
+        <Bounce Left>
           <ChaptersCard>
-            <ChaptersIcon src={RAS} />
+            <a
+              href="https://ras-insat.ieee.tn/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ChaptersIcon src={RAS} />
+            </a>
             <ChaptersH2>RAS Chapter</ChaptersH2>
             <ChaptersP>
               The INSAT IEEE Robotics and Automation Chapter is known for its
               technical side specifically in the Robotics and IoT industries.
             </ChaptersP>
           </ChaptersCard>
-          </Bounce>
-          <Bounce Left>
+        </Bounce>
+        <Bounce Left>
           <ChaptersCard>
-            <ChaptersIcon src={IAS} />
+            <a
+              href="https://ias-insat.ieee.tn/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ChaptersIcon src={IAS} />
+            </a>
             <ChaptersH2>IAS Chapter</ChaptersH2>
             <ChaptersP>
               The INSAT IEEE Industry Applications Society Chapter is known for
               its applications of electrical and electronic systems.
             </ChaptersP>
           </ChaptersCard>
-          </Bounce>
-          <Bounce Left>
+        </Bounce>
+        <Bounce Left>
           <ChaptersCard>
-            <ChaptersIcon src={PES} />
+            <a
+              href="https://pes-insat.ieee.tn/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ChaptersIcon src={PES} />
+            </a>
             <ChaptersH2>PES Chapter</ChaptersH2>
             <ChaptersP>
               The INSAT IEEE Power and Energy Society Chapter focuses on the
@@ -65,8 +83,8 @@ const Chapters = () => {
               power and energy.
             </ChaptersP>
           </ChaptersCard>
-          </Bounce>
-          <Bounce Left>
+        </Bounce>
+        <Bounce Left>
           <ChaptersCard>
             <ChaptersIcon src={EMBS} />
             <ChaptersH2>EMBS Chapter</ChaptersH2>
@@ -76,8 +94,8 @@ const Chapters = () => {
               Biology-related topics.
             </ChaptersP>
           </ChaptersCard>
-          </Bounce>
-          <Bounce Left>
+        </Bounce>
+        <Bounce Left>
           <ChaptersCard>
             <ChaptersIcon src={NPSS} />
             <ChaptersH2>NPSS Chapter</ChaptersH2>
@@ -87,8 +105,8 @@ const Chapters = () => {
               particle accelerators...
             </ChaptersP>
           </ChaptersCard>
-          </Bounce>
-          {/* <ChaptersCard>
+        </Bounce>
+        {/* <ChaptersCard>
             <ChaptersIcon src={WIE} />
             <ChaptersH2>WIE Affinity Group</ChaptersH2>
             <ChaptersP>
@@ -97,7 +115,7 @@ const Chapters = () => {
               academic interests to a career in engineering.
             </ChaptersP>
           </ChaptersCard> */}
-        </ChaptersWrapper>
+      </ChaptersWrapper>
     </ChaptersContainer>
   );
 };

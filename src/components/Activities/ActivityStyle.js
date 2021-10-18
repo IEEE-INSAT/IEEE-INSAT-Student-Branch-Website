@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   background: #010606;
   position: relative;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   display: flex;
   flex: 1;
@@ -16,6 +16,9 @@ export const Card = styled.div`
   background-color: #171515;
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+  @media screen and (max-width: 768px) {
+    width: 300px;
+  }
 `;
 
 export const CardContainer = styled.div`
@@ -33,6 +36,9 @@ export const CardContainer = styled.div`
     opacity: ${(props) => (props.opacity ? props.opacity : "0")};
     background-image: ${(props) =>
       `linear-gradient(${props.direction}, ${props.color1}, ${props.color2})`};
+  }
+  @media screen and (max-width: 768px){
+    height: 200px;
   }
 `;
 

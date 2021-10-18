@@ -18,7 +18,7 @@ const AwardsData = [
     }
   },
   {
-    text: "Student Branch Competition Award",
+    text: "Student Branch Competition Award for organizing TSYP 2015",
     date: "2014",
     category: {
       tag: "SB",
@@ -30,7 +30,7 @@ const AwardsData = [
     }
   },
   {
-    text: "Middle East Student Branch Congress DOA Competition Award",
+    text: "Middle East Student Branch Congress DOA Competition Award at MESYP",
     date: "2015",
     category: {
       tag: "SB",
@@ -42,59 +42,24 @@ const AwardsData = [
     }
   },
   {
-    text: "2nd Prize Myron Zucker Undergraduate Student Design Contest Award",
-    date: "2O15",
-    category: {
-      tag: "IAS",
-      color: "#018f69"
-    },
-    link: {
-      url: "",
-      text: "Check it out here"
-    }
-  },
-  {
-    text: "IEEE Region 8 Mind the Gap Contest Award",
+    text: "IEEE Region 8 Mind the Gap Contest 4th Prize Award",
     date: "2015",
     category: {
       tag: "SB",
-      color: "#00669B"
+      color: "#1da1f2"
     },
     link: {
       url: "",
       text: "Check it out here"
     }
   },
-  {
-    text: "EUROBOT Competition 4th Prize Award",
-    date: "2015",
-    category: {
-      tag: "RAS",
-      color: "#61116a"
-    },
-    link: {
-      url: "",
-      text: "Check it out here"
-    }
-  },
+
   {
     text: "IEEE Tunisian Section Exemplary Student Branch Award",
     date: "2014-2015",
     category: {
       tag: "SB",
-      color: "#00669B"
-    },
-    link: {
-      url: "",
-      text: "Check it out here"
-    }
-  },
-  {
-    text: "IEEE IAS Best Website Contest Award",
-    date: "2017",
-    category: {
-      tag: "SB",
-      color: "#00669B"
+      color: "#1da1f2"
     },
     link: {
       url: "",
@@ -106,7 +71,91 @@ const AwardsData = [
     date: "2016",
     category: {
       tag: "SB",
-      color: "#00669B"
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: "Check it out here"
+    }
+  },
+  {
+    text: "Main Host of Grand Tench",
+    date: "2017",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: "Check it out here"
+    }
+  },
+  {
+    text: "Best Networking Student Branch at MESYP",
+    date: "2017",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: "Check it out here"
+    }
+  },
+  {
+    text: "Award from the Palestinian delegation to The organizing committee of the MESYP Congress",
+    date: "2017",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: "Check it out here"
+    }
+  },
+  {
+    text: "IEEE R8 Exemplary Student Branch Award",
+    date: "2017-2018",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: "Check it out here"
+    }
+  },
+  {
+    text: "Award from University of Bahrain Student Branch to the organizing committee of the MESYP Congress",
+    date: "2017",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: "Check it out here"
+    }
+  },
+  {
+    text: "Student Branch Competition Award for organizing TSYP 2018",
+    date: "2017",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: "Check it out here"
+    }
+  },
+  {
+    text: "IEEE Regional Exemplary Student Branch",
+    date: "2019",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
     },
     link: {
       url: "",
