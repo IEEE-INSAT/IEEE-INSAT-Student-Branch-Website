@@ -69,13 +69,13 @@ const About = () => {
                 </TextWrapper>
               </Column1>
             </Slide>
-            <Column2>
-              <Slide left>
+            <Column1>
+              <Slide right>
                 <ImgWrap>
                   <Img src={SVG2} alt="About" />
                 </ImgWrap>
               </Slide>
-            </Column2>
+            </Column1>
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>

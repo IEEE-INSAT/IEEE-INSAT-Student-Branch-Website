@@ -3,7 +3,8 @@ import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
-  FaYoutube
+  FaYoutube,
+  FaMailBulk
 } from "react-icons/fa";
 import {
   FooterContainer,
@@ -74,8 +75,9 @@ const Footer = () => {
               <img src={logo} alt="logo" width="120px" height="38px" />
             </SocialLogo>
             <WebsiteRights>
-              INSAT IEEE Student Branch © {new Date().getFullYear()}.
+              INSAT IEEE Student Branch © {new Date().getFullYear()}
             </WebsiteRights>
+
             <SocialIcons>
               <SocialIconLink
                 href="https://www.facebook.com/IeeeInsatStudentBranch"
@@ -104,6 +106,13 @@ const Footer = () => {
                 arial-label="Youtube"
               >
                 <FaYoutube />
+              </SocialIconLink>
+              <SocialIconLink
+                href="mailto:test@mail.com"
+                target="_blank"
+                arial-label="Youtube"
+              >
+                <FaMailBulk />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
