@@ -1,4 +1,5 @@
 import React from "react";
+import Bounce from "react-reveal/Bounce";
 import AwardsData from "./AwardsData";
 import "./AwardStyle.css";
 
@@ -21,12 +22,14 @@ const AwardsItem = ({ data }) => (
 );
 
 const Awards = () =>
-  AwardsData.length > 0 && (
+<Bounce left>
+ { AwardsData.length > 0 && (
     <div id="awards" className="timeline-container">
       {AwardsData.map((data, idx) => (
-        <AwardsItem data={data} key={idx} />
+          <AwardsItem data={data} key={idx} />
       ))}
     </div>
-  );
+  )}
+  </Bounce>
 
 export default Awards;

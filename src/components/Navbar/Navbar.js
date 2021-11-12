@@ -105,18 +105,18 @@ const Navbar = ({ toggle }) => {
                   Members
                 </NavLinks>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLinks
-                  to="contact"
+                  to=""
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Contact Us
+                  Contact
                 </NavLinks>
-              </NavItem>
+              </NavItem> */}
             </NavMenu>
             {/* <NavBtn>
               <NavBtnLink to="/">Button</NavBtnLink>

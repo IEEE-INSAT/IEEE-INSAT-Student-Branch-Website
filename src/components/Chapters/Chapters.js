@@ -26,7 +26,13 @@ const Chapters = () => {
       <ChaptersWrapper>
         <Bounce Left>
           <ChaptersCard>
-            <ChaptersIcon src={CS} />
+            <a
+              href="https://cs-insat.ieee.tn/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ChaptersIcon src={CS} />
+            </a>
             <ChaptersH2>CS Chapter</ChaptersH2>
             <ChaptersP>
               The INSAT IEEE Computer Society Chapter is known for its scope in
@@ -86,7 +92,13 @@ const Chapters = () => {
         </Bounce>
         <Bounce Left>
           <ChaptersCard>
-            <ChaptersIcon src={EMBS} />
+            <a
+              href="https://embs-insat.ieee.tn/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ChaptersIcon src={EMBS} />
+            </a>
             <ChaptersH2>EMBS Chapter</ChaptersH2>
             <ChaptersP>
               The INSAT IEEE Engineering in Medicine and Biology Society Chapter
@@ -97,7 +109,13 @@ const Chapters = () => {
         </Bounce>
         <Bounce Left>
           <ChaptersCard>
-            <ChaptersIcon src={NPSS} />
+            <a
+              href="https://npss-insat.ieee.tn/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ChaptersIcon src={NPSS} />
+            </a>
             <ChaptersH2>NPSS Chapter</ChaptersH2>
             <ChaptersP>
               The INSAT IEEE Nuclear and Plasma Sciences Society focuses n all

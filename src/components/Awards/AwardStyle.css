@@ -116,8 +116,8 @@ h1 {
 }
 
 .timeline-item-content .circle {
-  background-color: #fff;
-  border: 3px solid #e17b77;
+  background-color: transparent;
+  border: 3px solid transparent;
   border-radius: 50%;
   position: absolute;
   top: calc(50% - 10px);
