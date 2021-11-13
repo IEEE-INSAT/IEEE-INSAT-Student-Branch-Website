@@ -59,7 +59,6 @@
   transform: translateY(-7px);
 }
 
-/* Membuat segitiga */
 .member-image::after {
   content: "";
   border-top: 20px solid transparent;
@@ -71,7 +70,6 @@
   transform: translateY(-50%);
 }
 
-/* Merubah posisi member-image dengan member-info */
 @media screen and (min-width: 771px) {
   .member:nth-child(4n + 3) .member-info,
   .member:nth-child(4n + 4) .member-info {
@@ -82,7 +80,6 @@
     order: 2;
   }
 
-  /* Merubah posisi sigitiga pada baris genap */
   .member:nth-child(4n + 3) .member-image::after,
   .member:nth-child(4n + 4) .member-image::after {
     left: 0;
@@ -91,7 +88,6 @@
   }
 }
 
-/* Mobile Styles */
 @media screen and (max-width: 770px) {
   .list-members {
     width: 95%;
@@ -113,7 +109,6 @@
     order: 2;
   }
 
-  /* Merubah posisi sigitiga elemen genap */
   .member:nth-child(even) .member-image::after {
     left: 0;
     right: auto;
@@ -124,5 +119,11 @@
 @media screen and (max-width: 768px) {
   .member-image {
     height: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .social-link .fab {
+    width: 25px;
+    height: 25px;
   }
 }
