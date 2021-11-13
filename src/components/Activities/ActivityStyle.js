@@ -65,3 +65,4 @@ export const ActivityDescription = styled.p`
   line-height: 30px;
   font-weight: 400;
 `;
+

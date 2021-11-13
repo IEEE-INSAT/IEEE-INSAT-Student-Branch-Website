@@ -14,7 +14,7 @@ import {
   BtnWrap,
   ImgWrap,
   Img
-} from "./AboutStyle";
+} from "../../commonStyles/AboutActivStyles";
 import SVG1 from "../../assets/images/SVG1.svg";
 import SVG2 from "../../assets/images/SVG2.svg";
 import SVG3 from "../../assets/images/SVG3.svg";

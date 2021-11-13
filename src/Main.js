@@ -21,7 +21,7 @@ const Main = () => {
       <Hero />
       <Chapters />
       <About />
-      {/* <Activities /> */}
+      <Activities />
       <Awards />
       <Members />
       <Footer />
