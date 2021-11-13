@@ -2,20 +2,21 @@ import React, { FC } from "react";
 import {
   FaFacebookSquare,
   FaInstagramSquare,
-  FaLinkedin
+  FaLinkedin,
+  FaMailBulk
 } from "react-icons/fa";
 import "./style.css";
 import Slide from "react-reveal/Slide";
 
-interface Props {
-  Photo: string;
-  Name: string;
-  Position: string;
-  FB: string;
-  INSTA: string;
-  Linked: string;
-}
-const MemberTemplate = ({ Photo, Name, Position, FB, INSTA, Linked }) => {
+const MemberTemplate = ({
+  Photo,
+  Name,
+  Position,
+  FB,
+  INSTA,
+  Linked,
+  IEEEMail
+}) => {
   return (
     <Slide left>
       <li className="member">
@@ -27,13 +28,16 @@ const MemberTemplate = ({ Photo, Name, Position, FB, INSTA, Linked }) => {
           <p> {Position} </p>
           <div className="social-link">
             <a href={FB} target="_blank" rel="noreferrer">
-              <FaFacebookSquare className="fab fa-facebook" />
+              <FaFacebookSquare className="fab" />
             </a>
             <a href={INSTA} target="_blank" rel="noreferrer">
-              <FaInstagramSquare className="fab fa-instagram" />
+              <FaInstagramSquare className="fab" />
             </a>
             <a href={Linked} target="_blank" rel="noreferrer">
-              <FaLinkedin className="fab fa-linkedin-in" />
+              <FaLinkedin className="fab" />
+            </a>
+            <a href={IEEEMail} target="_blank" rel="noreferrer">
+              <FaMailBulk className="fab" />
             </a>
           </div>
         </div>

@@ -54,7 +54,7 @@
   text-decoration: none;
 }
 .social-link .fab:hover {
-  background: rgb(6, 104, 233);
+  background: rgba(26, 117, 236, 0.849);
   color: #ffffff;
   transform: translateY(-7px);
 }
