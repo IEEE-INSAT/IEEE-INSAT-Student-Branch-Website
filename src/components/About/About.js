@@ -82,7 +82,7 @@ const About = () => {
       <InfoContainer lightBg="true" id="about">
         <InfoWrapper>
           <InfoRow imgStart="false">
-            <Slide top cascade>
+            <Slide right cascade>
               <Column1>
                 <TextWrapper>
                   <TopLine>IEEE INSAT Student Branch</TopLine>
@@ -97,7 +97,7 @@ const About = () => {
               </Column1>
             </Slide>
             <Column2>
-            <Slide bottom>
+            <Slide left>
               <ImgWrap>
                 <Img src={SVG3} alt="About" />
               </ImgWrap>

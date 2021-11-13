@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/SideBar/Sidebar";
 import Hero from "./components/Hero/Hero";
 import Chapters from "./components/Chapters/Chapters";
+import AffinityGroups from "./components/Chapters/AffinityGroups";
 import About from "./components/About/About";
 import Activities from "./components/Activities/Activities";
 import Awards from "./components/Awards/Awards";
@@ -20,6 +21,7 @@ const Main = () => {
       <Navbar toggle={toggle} />
       <Hero />
       <Chapters />
+      {/* <AffinityGroups /> */}
       <About />
       <Activities />
       <Awards />
