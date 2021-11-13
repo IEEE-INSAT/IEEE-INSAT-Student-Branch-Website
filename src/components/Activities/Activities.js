@@ -40,7 +40,7 @@ const Activities = () => {
         <InfoWrapper>
           <InfoRow imgStart="false">
             <Column1>
-              <Slide left>
+              <Slide bottom>
                 <ActivityTemplate
                   GradientDirection="120deg"
                   GradientColor1="#a142f5"
@@ -55,6 +55,7 @@ const Activities = () => {
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
+
       <InfoContainer lightBg="">
         <InfoWrapper>
           <InfoRow imgStart="false">
@@ -74,11 +75,52 @@ const Activities = () => {
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
+
       <InfoContainer lightBg="">
         <InfoWrapper>
           <InfoRow imgStart="false">
             <Column1>
+              <Slide bottom>
+                <ActivityTemplate
+                  GradientDirection="120deg"
+                  GradientColor1="#a142f5"
+                  GradientColor2="#0000ff"
+                  opacity="0.7"
+                  Photo={Soon}
+                  Title="Tunisia Entrepreneurship Summit (TES)"
+                  Description="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words."
+                />
+              </Slide>
+            </Column1>
+          </InfoRow>
+        </InfoWrapper>
+      </InfoContainer>
+
+      <InfoContainer lightBg="">
+        <InfoWrapper>
+          <InfoRow imgStart="false">
+            <Column2>
               <Slide left>
+                <ActivityTemplate
+                  GradientDirection="120deg"
+                  GradientColor1="#a142f5"
+                  GradientColor2="#0000ff"
+                  opacity="0.7"
+                  Photo={Soon}
+                  Title="Tunisian Students and Young Professionals Congress (TSYP)"
+                  Description="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words."
+                />
+              </Slide>
+            </Column2>
+          </InfoRow>
+        </InfoWrapper>
+      </InfoContainer>
+
+      <InfoContainer lightBg="">
+        <InfoWrapper>
+          <InfoRow imgStart="false">
+            <Column1>
+              <Slide bottom>
                 <ActivityTemplate
                   GradientDirection="120deg"
                   GradientColor1="#a142f5"
@@ -93,6 +135,7 @@ const Activities = () => {
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
+
       <InfoContainer lightBg="">
         <InfoWrapper>
           <InfoRow imgStart="false">
@@ -104,45 +147,7 @@ const Activities = () => {
                   GradientColor2="#0000ff"
                   opacity="0.7"
                   Photo={Soon}
-                  Title="SpaX"
-                  Description="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words."
-                />
-              </Slide>
-            </Column2>
-          </InfoRow>
-        </InfoWrapper>
-      </InfoContainer>
-      <InfoContainer lightBg="">
-        <InfoWrapper>
-          <InfoRow imgStart="false">
-            <Column1>
-              <Slide left>
-                <ActivityTemplate
-                  GradientDirection="120deg"
-                  GradientColor1="#a142f5"
-                  GradientColor2="#0000ff"
-                  opacity="0.7"
-                  Photo={Soon}
-                  Title="TSYP"
-                  Description="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words."
-                />
-              </Slide>
-            </Column1>
-          </InfoRow>
-        </InfoWrapper>
-      </InfoContainer>
-      <InfoContainer lightBg="">
-        <InfoWrapper>
-          <InfoRow imgStart="false">
-            <Column2>
-              <Slide left>
-                <ActivityTemplate
-                  GradientDirection="120deg"
-                  GradientColor1="#a142f5"
-                  GradientColor2="#0000ff"
-                  opacity="0.7"
-                  Photo={Soon}
-                  Title="Triple-I"
+                  Title="The Student Professional Awareness Program (SPAx)"
                   Description="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words."
                 />
               </Slide>
