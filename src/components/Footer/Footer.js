@@ -108,7 +108,7 @@ const Footer = () => {
                 <FaYoutube />
               </SocialIconLink>
               <SocialIconLink
-                href="mailto:test@mail.com"
+                href="mailto:ieee@insat.u-carthage.tn"
                 target="_blank"
                 arial-label="Youtube"
               >
