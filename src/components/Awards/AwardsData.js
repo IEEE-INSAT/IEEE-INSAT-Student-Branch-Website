@@ -10,7 +10,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
   {
@@ -22,7 +22,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
 
@@ -35,7 +35,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
   {
@@ -47,7 +47,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
   {
@@ -59,7 +59,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
   {
@@ -71,7 +71,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
   {
@@ -83,7 +83,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
   {
@@ -95,7 +95,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
   {
@@ -107,7 +107,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
 
@@ -120,7 +120,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
   {
@@ -132,7 +132,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
   {
@@ -144,7 +144,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   },
   {
@@ -161,7 +161,7 @@ const AwardsData = [
     },
     link: {
       url: "",
-      text: "Check it out here"
+      text: ""
     }
   }
 ];
