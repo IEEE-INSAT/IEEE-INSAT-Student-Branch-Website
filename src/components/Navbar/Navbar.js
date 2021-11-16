@@ -13,7 +13,7 @@ import {
   NavBtnLink
 } from "./NavbarStyle";
 import { animateScroll as scroll } from "react-scroll";
-import logo from "../../assets/images/logo.png";
+import logo1 from "../../assets/images/logo1.png";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              <img src={logo} alt="logo" width="120px" height="38px" />
+              <img src={logo1} alt="IEEE Logo 1" width="200px" height="115px" />
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
