@@ -23,7 +23,7 @@ import {
   WebsiteRights
 } from "./FooterStyle";
 import { animateScroll as scroll } from "react-scroll";
-import logo from "../../assets/images/logo.png";
+import logo2 from "../../assets/images/logo2.png";
 
 const Footer = () => {
   const toggleHome = () => {
@@ -72,7 +72,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              <img src={logo} alt="logo" width="120px" height="38px" />
+              <img src={logo2} alt="IEEE Logo 2" width="120px" height="38px" />
             </SocialLogo>
             <WebsiteRights>
               INSAT IEEE Student Branch © {new Date().getFullYear()}
