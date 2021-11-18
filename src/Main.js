@@ -21,7 +21,7 @@ const Main = () => {
       <Navbar toggle={toggle} />
       <Hero />
       <Chapters />
-      {/* <AffinityGroups /> */}
+      <AffinityGroups />
       <About />
       <Activities />
       <Awards />
