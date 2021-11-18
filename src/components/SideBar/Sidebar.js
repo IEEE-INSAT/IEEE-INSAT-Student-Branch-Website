@@ -21,9 +21,6 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="chapters" onClick={toggle}>
             Chapters
           </SidebarLink>
-          <SidebarLink to="affinity" onClick={toggle}>
-            Affinity Groups
-          </SidebarLink>
           <SidebarLink to="about" onClick={toggle}>
             About
           </SidebarLink>

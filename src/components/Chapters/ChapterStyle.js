@@ -1,29 +1,29 @@
 import styled from "styled-components";
 
 export const ChaptersContainer = styled.div`
-  height: 110vh;
+  height: 105vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   background: #010606;
 
   @media screen and (max-width: 1000px) {
     height: 1300px;
   }
   @media screen and (max-width: 768px) {
-    height: 2100px;
+    height: 2700px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 2300px;
+    height: 2500px;
   }
 `;
 export const ChaptersWrapper = styled.div`
-  max-width: 1000px;
+  max-width: 1250px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
@@ -33,7 +33,7 @@ export const ChaptersWrapper = styled.div`
     padding: 0 74px;
   }
 
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     padding: 0 74px;
     max-width: 500px;
@@ -90,10 +90,4 @@ export const ChaptersP = styled.p`
   @media screen and (max-width: 768px) {
     font-size: 0.9rem;
   }
-`;
-
-export const HiddenCard = styled.div`
-visibility: hidden;
-width: 0;
-height: 0;
 `;

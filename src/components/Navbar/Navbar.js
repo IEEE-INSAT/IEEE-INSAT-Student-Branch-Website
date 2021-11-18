@@ -59,18 +59,6 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="affinity"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  Affinity Groups
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
                   to="about"
                   smooth={true}
                   duration={500}
