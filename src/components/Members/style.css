@@ -16,7 +16,7 @@
 
 .member-image {
   width: 50%;
-  height: 370px;
+  height: 430px;
   cursor: pointer;
   overflow: hidden;
   position: relative;
@@ -118,7 +118,7 @@
 
 @media screen and (max-width: 768px) {
   .member-image {
-    height: 200px;
+    height: 210px;
   }
 }
 @media screen and (max-width: 768px) {
