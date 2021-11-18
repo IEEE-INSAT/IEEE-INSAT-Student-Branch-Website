@@ -32,13 +32,11 @@ export const InfoRow = styled.div`
   }
 `;
 export const Column1 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 25px;
+  
   grid-area: col1;
 `;
 export const Column2 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
+  
   grid-area: col2;
 `;
 export const TextWrapper = styled.div`

@@ -49,7 +49,7 @@ export const ImageWrapper = styled.img`
 `;
 
 export const InfoContainer = styled.div`
-  padding: 20px 15px;
+  padding: 15px 15px;
 `;
 
 export const ActivityTitle = styled.h3`
