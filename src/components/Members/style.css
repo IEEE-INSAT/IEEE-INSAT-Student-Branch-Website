@@ -121,6 +121,13 @@
     height: 210px;
   }
 }
+
+@media screen and (max-width: 1366px) {
+  .member-image {
+    height: 290px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .social-link .fab {
     width: 25px;
