@@ -122,7 +122,7 @@
   }
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1366px) and (min-width: 1024px){
   .member-image {
     height: 290px;
   }
