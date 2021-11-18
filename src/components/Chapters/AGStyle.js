@@ -1,17 +1,12 @@
 import styled from "styled-components";
 
 export const ChaptersContainer = styled.div`
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #fff;
-
-  @media screen and (max-width: 1000px) {
-    height: 90vh;
-  }
-  
 `;
 export const ChaptersWrapper = styled.div`
   max-width: 1000px;

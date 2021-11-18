@@ -37,7 +37,13 @@ const AffinityGroups = () => {
           </Testha>
           <Bounce left>
             <ChaptersCard>
-              <ChaptersIcon src={WIE} />
+              <a
+                href="https://wie-insat.ieee.tn/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ChaptersIcon src={WIE} />
+              </a>
               <ChaptersH2>WIE Affinity Group</ChaptersH2>
               <ChaptersP>
                 The INSAT IEEE Women in Engineering promotes women engineers and
