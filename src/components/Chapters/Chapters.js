@@ -86,8 +86,7 @@ const Chapters = () => {
               <ChaptersH2>PES Chapter</ChaptersH2>
               <ChaptersP>
                 The INSAT IEEE Power and Energy Society Chapter focuses on the
-                scientific and engineering knowledge about different types of
-                power and energy.
+                knowledge about different types of power and energy.
               </ChaptersP>
             </ChaptersCard>
           </Bounce>
@@ -125,12 +124,27 @@ const Chapters = () => {
               </ChaptersP>
             </ChaptersCard>
           </Bounce>
+          <Bounce left>
+            <ChaptersCard>
+              <a
+                href="https://wie-insat.ieee.tn/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ChaptersIcon src={WIE} />
+              </a>
+              <ChaptersH2>WIE Affinity Group</ChaptersH2>
+              <ChaptersP>
+                The INSAT IEEE Women in Engineering promotes women engineers and
+                scientists and inspiring girls around the world to follow their
+                academic interests to a career in engineering.
+              </ChaptersP>
+            </ChaptersCard>
+          </Bounce>
         </ChaptersWrapper>
       </ChaptersContainer>
-      
     </>
   );
 };
 
 export default Chapters;
-
