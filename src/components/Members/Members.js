@@ -43,6 +43,7 @@ const Members = () => {
         Name="Mariem Manai"
         Position="HR Manager"
         FB="https://www.facebook.com/profile.php?id=100009415355434"
+        INSTA="https://www.instagram.com/mariem._mannai"
         Linked="https://www.linkedin.com/in/mariem-manai-2688481a9"
         IEEEMail="mailto:mariemmanai@ieee.org"
       />
@@ -53,14 +54,14 @@ const Members = () => {
         FB="https://www.facebook.com/amira.becheikh.56"
         INSTA="https://www.instagram.com/amira_becheikh"
         Linked="https://www.linkedin.com/in/amira-becheikh-85600620a"
-        IEEEMail=""
+        IEEEMail="mailto:amirabecheikh12@gmail.com"
       />
       <MemberTemplate
         Photo={Syrine}
         Name="Syrine Doukali"
         Position="Treasurer"
         FB="https://www.facebook.com/syrine.doukali"
-        INSTA="https://www.instagram.com/syrine_doukali/"
+        INSTA="https://www.instagram.com/syrine_doukali"
         Linked="https://www.linkedin.com/in/doukali-syrine-a26273209"
         IEEEMail="mailto:syrinedoukali@ieee.org"
       />
@@ -71,7 +72,7 @@ const Members = () => {
         FB="https://www.facebook.com/Sirajeddine.Aissa"
         INSTA="https://www.instagram.com/sirajeddine.aissa"
         Linked="https://www.linkedin.com/in/sirajeddineaissa"
-        IEEEMail=""
+        IEEEMail="mailto:domainexpansion@protonmail.com"
       />
     </ul>
   );
