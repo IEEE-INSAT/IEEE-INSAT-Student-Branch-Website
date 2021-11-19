@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              <img src={logo1} alt="IEEE Logo 1" width="200px" height="115px" />
+              <img src={logo1} alt="IEEE Logo 1" width="200px" height="125px" />
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
