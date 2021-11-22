@@ -1,11 +1,11 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
 import CS from "../../assets/images/chapters/cs.png";
-import RAS from "../../assets/images/chapters/ras.jpg";
+import RAS from "../../assets/images/chapters/ras.png";
 import IAS from "../../assets/images/chapters/ias.png";
-import PES from "../../assets/images/chapters/pes.jpg";
-import EMBS from "../../assets/images/chapters/embs.jpg";
-import NPSS from "../../assets/images/chapters/npss.jpg";
+import PES from "../../assets/images/chapters/pes.png";
+import EMBS from "../../assets/images/chapters/embs.png";
+import NPSS from "../../assets/images/chapters/npss.png";
 import WIE from "../../assets/images/chapters/wie.png";
 import {
   ChaptersContainer,
@@ -32,7 +32,7 @@ const Chapters = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ChaptersIcon src={CS} />
+                <ChaptersIcon src={CS}/>
               </a>
               <ChaptersH2>CS Chapter</ChaptersH2>
               <ChaptersP>
@@ -102,8 +102,7 @@ const Chapters = () => {
               <ChaptersH2>EMBS Chapter</ChaptersH2>
               <ChaptersP>
                 The INSAT IEEE Engineering in Medicine and Biology Society
-                Chapter focuses on the studies of Biomedical Engineering and
-                Biology-related topics.
+                Chapter focuses on the studies of Biology-related topics.
               </ChaptersP>
             </ChaptersCard>
           </Bounce>
@@ -119,8 +118,7 @@ const Chapters = () => {
               <ChaptersH2>NPSS Chapter</ChaptersH2>
               <ChaptersP>
                 The INSAT IEEE Nuclear and Plasma Sciences Society focuses n all
-                phases of nuclear and plasma sciences including instrumentation,
-                particle accelerators...
+                phases of nuclear and plasma sciences.
               </ChaptersP>
             </ChaptersCard>
           </Bounce>
@@ -135,9 +133,7 @@ const Chapters = () => {
               </a>
               <ChaptersH2>WIE Affinity Group</ChaptersH2>
               <ChaptersP>
-                The INSAT IEEE Women in Engineering promotes women engineers and
-                scientists and inspiring girls around the world to follow their
-                academic interests to a career in engineering.
+                The INSAT IEEE Women in Engineering Group promotes women engineers to follow their academic interests to a career in engineering.
               </ChaptersP>
             </ChaptersCard>
           </Bounce>

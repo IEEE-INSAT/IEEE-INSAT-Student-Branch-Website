@@ -62,9 +62,8 @@ export const ChaptersCard = styled.div`
   }
 `;
 export const ChaptersIcon = styled.img`
-  height: 130px;
-  width: 130px;
-  margin-bottom: 10px;
+  height: 170px;
+  width: 170px;
 `;
 export const ChaptersH1 = styled.h1`
   font-size: 2.5rem;

@@ -16,7 +16,7 @@ export const InfoWrapper = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  
+  padding: 0 24px;
   justify-content: center;
 `;
 export const InfoRow = styled.div`
@@ -32,11 +32,9 @@ export const InfoRow = styled.div`
   }
 `;
 export const Column1 = styled.div`
-  
   grid-area: col1;
 `;
 export const Column2 = styled.div`
-  
   grid-area: col2;
 `;
 export const TextWrapper = styled.div`
