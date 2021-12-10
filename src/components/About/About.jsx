@@ -1,6 +1,6 @@
 import React from "react";
 import { Slide } from "react-reveal";
-import { Button } from "../ButtonStyle";
+// import { Button } from "../ButtonStyle";
 import {
   InfoContainer,
   InfoWrapper,
@@ -9,9 +9,7 @@ import {
   Column2,
   TextWrapper,
   TopLine,
-  Heading,
   Subtitle,
-  BtnWrap,
   ImgWrap,
   Img
 } from "../../commonStyles/AboutActivStyles";
@@ -60,10 +58,10 @@ const About = () => {
                   <TopLine>IEEE Tunisia Section</TopLine>
                   <Subtitle darkText="true">
                     IEEE Tunisia Section aims to spread IEEE Activities to all
-                    corners of the country by educational and technical
-                    activities, human networking, and to develop technology and
-                    its applications for humanitarian challenges. The section
-                    supports Chapters, special interest groups, student
+                    corners of the country through  educational and technical
+                    activities, networking opportunities, and to develop technology and
+                    its applications for humanitarian goals. The section
+                    supports chapters, special interest groups, student
                     activities and student awards.
                   </Subtitle>
                 </TextWrapper>
@@ -87,20 +85,21 @@ const About = () => {
                 <TextWrapper>
                   <TopLine>IEEE INSAT Student Branch</TopLine>
                   <Subtitle darkText="true">
-                    IEEE INSAT Student Branch is a branch of IEEE at insat
-                    institute, Tunis, Tunisia. Founded on january 2nd, 2013 by
-                    12 students of the institute, it has now about 550 members
-                    and by that It breaks the record of the largest student
-                    branch in Region 8.
+                    IEEE INSAT Student Branch is an IEEE Student Branch that
+                    provides opportunities to meet and learn from fellow IEEE
+                    Student and Graduate Student Members and engage with
+                    professional IEEE members locally. IEEE currently has
+                    Student Branches at thousands of universities and colleges
+                    in hundreds of countries throughout the world.
                   </Subtitle>
                 </TextWrapper>
               </Column1>
             </Slide>
             <Column2>
-            <Slide left>
-              <ImgWrap>
-                <Img src={SVG3} alt="About" />
-              </ImgWrap>
+              <Slide left>
+                <ImgWrap>
+                  <Img src={SVG3} alt="About" />
+                </ImgWrap>
               </Slide>
             </Column2>
           </InfoRow>

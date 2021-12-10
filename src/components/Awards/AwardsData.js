@@ -1,5 +1,3 @@
-import React from "react";
-
 const AwardsData = [
   {
     text: "IEEE Regional Exemplary Student Branch",

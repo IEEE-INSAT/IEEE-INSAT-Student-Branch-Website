@@ -9,13 +9,11 @@ import NPSS from "../../assets/images/chapters/npss.png";
 import WIE from "../../assets/images/chapters/wie.png";
 import {
   ChaptersContainer,
-  ChaptersH1,
   ChaptersWrapper,
   ChaptersCard,
   ChaptersIcon,
   ChaptersH2,
-  ChaptersP,
-  HiddenCard
+  ChaptersP
 } from "./ChapterStyle";
 
 const Chapters = () => {
@@ -32,7 +30,7 @@ const Chapters = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ChaptersIcon src={CS}/>
+                <ChaptersIcon src={CS} />
               </a>
               <ChaptersH2>CS Chapter</ChaptersH2>
               <ChaptersP>
@@ -133,7 +131,9 @@ const Chapters = () => {
               </a>
               <ChaptersH2>WIE Affinity Group</ChaptersH2>
               <ChaptersP>
-                The INSAT IEEE Women in Engineering Group promotes women engineers to follow their academic interests to a career in engineering.
+                The INSAT IEEE Women in Engineering Group promotes women
+                engineers to follow their academic interests to a career in
+                engineering.
               </ChaptersP>
             </ChaptersCard>
           </Bounce>

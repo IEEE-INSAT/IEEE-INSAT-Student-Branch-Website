@@ -8,11 +8,9 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
-  HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight
+  HeroBtnWrapper
 } from "./HeroStyle";
-import { Button } from "../ButtonStyle";
+// import { Button } from "../ButtonStyle";
 import Typewriter from "typewriter-effect";
 
 const Hero = () => {

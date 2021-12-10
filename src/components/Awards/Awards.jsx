@@ -21,15 +21,16 @@ const AwardsItem = ({ data }) => (
   </div>
 );
 
-const Awards = () =>
-<Bounce left>
- { AwardsData.length > 0 && (
-    <div id="awards" className="timeline-container">
-      {AwardsData.map((data, idx) => (
+const Awards = () => (
+  <Bounce left>
+    {AwardsData.length > 0 && (
+      <div id="awards" className="timeline-container">
+        {AwardsData.map((data, idx) => (
           <AwardsItem data={data} key={idx} />
-      ))}
-    </div>
-  )}
+        ))}
+      </div>
+    )}
   </Bounce>
+);
 
 export default Awards;
