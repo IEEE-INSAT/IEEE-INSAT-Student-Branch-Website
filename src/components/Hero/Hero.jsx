@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import RubberBand from "react-reveal/RubberBand";
 import Video from "../../assets/videos/video.mp4";
 import {
@@ -14,12 +14,6 @@ import {
 import Typewriter from "typewriter-effect";
 
 const Hero = () => {
-  const [hover, setHover] = useState(false);
-
-  const onHover = () => {
-    setHover(!hover);
-  };
-
   return (
     <HeroContainer id="home">
       <HeroBg>
