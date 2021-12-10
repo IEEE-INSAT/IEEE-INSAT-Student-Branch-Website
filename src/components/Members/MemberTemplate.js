@@ -1,6 +1,8 @@
-import React, { FC } from "react";
+import React from "react";
 import {
   FaFacebookSquare,
+  FaGithub,
+  FaGithubSquare,
   FaInstagramSquare,
   FaLinkedin,
   FaMailBulk
@@ -15,13 +17,14 @@ const MemberTemplate = ({
   FB,
   INSTA,
   Linked,
-  IEEEMail
+  IEEEMail,
+  Github
 }) => {
   return (
     <Slide left>
       <li className="member">
         <div className="member-image">
-          <img src={Photo} />
+          <img src={Photo} alt="Board Member" />
         </div>
         <div className="member-info">
           <h3>{Name} </h3>
@@ -39,6 +42,13 @@ const MemberTemplate = ({
             <a href={IEEEMail} target="_blank" rel="noreferrer">
               <FaMailBulk className="fab" />
             </a>
+            {Github ? (
+              <a href={Github} target="_blank" rel="noreferrer">
+                <FaGithubSquare className="fab" />
+              </a>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </li>

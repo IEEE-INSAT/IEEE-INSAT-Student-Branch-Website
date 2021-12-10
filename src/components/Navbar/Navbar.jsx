@@ -8,9 +8,7 @@ import {
   MobileIcon,
   NavMenu,
   NavLinks,
-  NavItem,
-  NavBtn,
-  NavBtnLink
+  NavItem
 } from "./NavbarStyle";
 import { animateScroll as scroll } from "react-scroll";
 import logo1 from "../../assets/images/logo1.png";

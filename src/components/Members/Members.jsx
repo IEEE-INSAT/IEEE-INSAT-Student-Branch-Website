@@ -72,7 +72,8 @@ const Members = () => {
         FB="https://www.facebook.com/Sirajeddine.Aissa"
         INSTA="https://www.instagram.com/sirajeddine.aissa"
         Linked="https://www.linkedin.com/in/sirajeddineaissa"
-        IEEEMail="mailto:domainexpansion@protonmail.com"
+        IEEEMail="mailto:sirajeddineaissa@ieee.org"
+        Github="https://github.com/sirajeddineaissa"
       />
     </ul>
   );
