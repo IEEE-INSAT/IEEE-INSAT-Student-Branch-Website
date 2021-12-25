@@ -68,7 +68,7 @@ const Members = () => {
         INSTA="https://www.instagram.com/sirajeddine.aissa"
         Linked="https://www.linkedin.com/in/sirajeddineaissa"
         IEEEMail="mailto:sirajeddineaissa@ieee.org"
-        Github="https://github.com/sirajeddineaissa"
+        Github="https://github.com/sirajeddineaissa/"
       />
     </ul>
   );
