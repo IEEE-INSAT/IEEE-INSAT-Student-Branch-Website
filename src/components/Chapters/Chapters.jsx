@@ -11,7 +11,6 @@ import {
   ChaptersContainer,
   ChaptersWrapper,
   ChaptersCard,
-  ChaptersIcon,
   ChaptersH2,
   ChaptersP
 } from "./ChapterStyle";
@@ -30,7 +29,7 @@ const Chapters = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ChaptersIcon src={CS} />
+                <img src={CS} height="170px" width="170px" alt="CS" />
               </a>
               <ChaptersH2>CS Chapter</ChaptersH2>
               <ChaptersP>
@@ -47,7 +46,7 @@ const Chapters = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ChaptersIcon src={RAS} />
+                <img src={RAS} height="170px" width="170px" alt="RAS" />
               </a>
               <ChaptersH2>RAS Chapter</ChaptersH2>
               <ChaptersP>
@@ -63,7 +62,7 @@ const Chapters = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ChaptersIcon src={IAS} />
+                <img src={IAS} height="160px" width="203px" alt="IAS" />
               </a>
               <ChaptersH2>IAS Chapter</ChaptersH2>
               <ChaptersP>
@@ -79,7 +78,7 @@ const Chapters = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ChaptersIcon src={PES} />
+                <img src={PES} height="175px" width="240px" alt="PES" />
               </a>
               <ChaptersH2>PES Chapter</ChaptersH2>
               <ChaptersP>
@@ -95,7 +94,7 @@ const Chapters = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ChaptersIcon src={EMBS} />
+                <img src={EMBS} height="180px" width="235px" alt="EMBS" />
               </a>
               <ChaptersH2>EMBS Chapter</ChaptersH2>
               <ChaptersP>
@@ -111,7 +110,7 @@ const Chapters = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ChaptersIcon src={NPSS} />
+                <img src={NPSS} height="170px" width="170px" alt="NPSS" />
               </a>
               <ChaptersH2>NPSS Chapter</ChaptersH2>
               <ChaptersP>
@@ -127,7 +126,7 @@ const Chapters = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ChaptersIcon src={WIE} />
+                <img src={WIE} height="170px" width="170px" alt="WIE" />
               </a>
               <ChaptersH2>WIE Affinity Group</ChaptersH2>
               <ChaptersP>
