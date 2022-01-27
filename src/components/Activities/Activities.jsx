@@ -76,7 +76,7 @@ const Activities = () => {
         </InfoWrapper>
       </InfoContainer>
 
-      <InfoContainer lightBg="">
+      {/* <InfoContainer lightBg="">
         <InfoWrapper>
           <InfoRow imgStart="false">
             <Column1>
@@ -134,7 +134,7 @@ const Activities = () => {
             </Column1>
           </InfoRow>
         </InfoWrapper>
-      </InfoContainer>
+      </InfoContainer> */}
     </>
   );
 };

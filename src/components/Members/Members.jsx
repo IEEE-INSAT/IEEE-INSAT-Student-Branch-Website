@@ -1,13 +1,17 @@
 import React from "react";
 import MemberTemplate from "./MemberTemplate";
-import Random from "../../assets/images/members/random.jpg";
-
+import Zormati from "../../assets/images/members/Zormati.jpg";
+import Mariem from "../../assets/images/members/Mariem.jpg";
+import Hend from "../../assets/images/members/Hend.jpg";
+import Amira from "../../assets/images/members/Amira.jpg";
+import Syrine from "../../assets/images/members/Syrine.jpg";
+import Siraje from "../../assets/images/members/Siraje.jpg";
 
 const Members = () => {
   return (
     <ul id="members" className="list-members">
       <MemberTemplate
-        Photo={Random}
+        Photo={Zormati}
         Name="Med Ali Zormati"
         Position="Chairman"
         FB="https://www.facebook.com/ma.zormati"
@@ -16,16 +20,7 @@ const Members = () => {
         IEEEMail="mailto:zormati@ieee.org"
       />
       <MemberTemplate
-        Photo={Random}
-        Name="Mouna Khiari"
-        Position="Vice-Chairwoman"
-        FB="https://www.facebook.com/mouna.khiari.54"
-        INSTA="https://www.instagram.com/mounakhiari1"
-        Linked="https://www.linkedin.com/in/mounakhiari"
-        IEEEMail="mailto:mounakhiari9@ieee.org"
-      />
-      <MemberTemplate
-        Photo={Random}
+        Photo={Hend}
         Name="Hend Kmiha"
         Position="General Secretary"
         FB="https://www.facebook.com/hend.kmiha"
@@ -34,7 +29,7 @@ const Members = () => {
         IEEEMail="mailto:Hend.kmiha@ieee.org"
       />
       <MemberTemplate
-        Photo={Random}
+        Photo={Mariem}
         Name="Mariem Manai"
         Position="HR Manager"
         FB="https://www.facebook.com/profile.php?id=100009415355434"
@@ -43,7 +38,7 @@ const Members = () => {
         IEEEMail="mailto:mariemmanai@ieee.org"
       />
       <MemberTemplate
-        Photo={Random}
+        Photo={Amira}
         Name="Amira Becheikh"
         Position="Media Manager"
         FB="https://www.facebook.com/amira.becheikh.56"
@@ -52,7 +47,7 @@ const Members = () => {
         IEEEMail="mailto:amirabecheikh12@gmail.com"
       />
       <MemberTemplate
-        Photo={Random}
+        Photo={Syrine}
         Name="Syrine Doukali"
         Position="Treasurer"
         FB="https://www.facebook.com/syrine.doukali"
@@ -61,7 +56,7 @@ const Members = () => {
         IEEEMail="mailto:syrinedoukali@ieee.org"
       />
       <MemberTemplate
-        Photo={Random}
+        Photo={Siraje}
         Name="Sirajeddine Aissa"
         Position="Webmaster"
         FB="https://www.facebook.com/Sirajeddine.Aissa"
