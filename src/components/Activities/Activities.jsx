@@ -4,7 +4,6 @@ import ActivityTemplate from "./ActivityTemplate";
 import SC from "../../assets/images/actitivites/Summer School.jpg";
 import IntegDay from "../../assets/images/actitivites/Integration Day.jpg";
 import IEEEDay from "../../assets/images/actitivites/IEEE Day.jpg";
-import Soon from "../../assets/images/actitivites/Coming Soon.jpg";
 import {
   InfoContainer,
   InfoWrapper,
