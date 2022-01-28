@@ -69,7 +69,7 @@ const Footer = () => {
               <img src={logo2} alt="IEEE Logo 2" width="120px" height="38px" />
             </SocialLogo>
             <WebsiteRights>
-              INSAT IEEE Student Branch © {new Date().getFullYear()}
+              IEEE INSAT Student Branch © {new Date().getFullYear()}
             </WebsiteRights>
 
             <SocialIcons>
@@ -102,7 +102,7 @@ const Footer = () => {
                 <FaYoutube />
               </SocialIconLink>
               <SocialIconLink
-                href="mailto:ieee@insat.u-carthage.tn"
+                href="mailto:sb.insat@ieee.org"
                 target="_blank"
                 arial-label="Youtube"
               >

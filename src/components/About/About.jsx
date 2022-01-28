@@ -32,7 +32,7 @@ const About = () => {
                     organization dedicated to advancing technology for the
                     benefit of humanity. IEEE and its members inspire a global
                     community through its highly cited publications,
-                    conferenéces, technology standards, and professional and
+                    conferences, technology standards, and professional and
                     educational activities.
                   </Subtitle>
                 </TextWrapper>

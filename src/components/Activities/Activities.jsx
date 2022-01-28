@@ -4,6 +4,7 @@ import ActivityTemplate from "./ActivityTemplate";
 import SC from "../../assets/images/actitivites/Summer School.jpg";
 import IntegDay from "../../assets/images/actitivites/Integration Day.jpg";
 import IEEEDay from "../../assets/images/actitivites/IEEE Day.jpg";
+import Soon from "../../assets/images/actitivites/Coming Soon.jpg";
 import {
   InfoContainer,
   InfoWrapper,
@@ -75,6 +76,25 @@ const Activities = () => {
         </InfoWrapper>
       </InfoContainer>
 
+      <InfoContainer lightBg="">
+        <InfoWrapper>
+          <InfoRow imgStart="false">
+            <Column1>
+              <Slide bottom>
+                <ActivityTemplate
+                  GradientDirection="120deg"
+                  GradientColor1="#a142f5"
+                  GradientColor2="#0000ff"
+                  opacity="0.7"
+                  Photo={Soon}
+                  Title="The Student Professional Awareness Program (SPAx 2022)"
+                  Description="The Student Professional Awareness Program features discussions, virtual and in-person presentations, lectures and a series of activities focused on developing professional skills."
+                />
+              </Slide>
+            </Column1>
+          </InfoRow>
+        </InfoWrapper>
+      </InfoContainer>
       {/* <InfoContainer lightBg="">
         <InfoWrapper>
           <InfoRow imgStart="false">
@@ -95,45 +115,7 @@ const Activities = () => {
         </InfoWrapper>
       </InfoContainer>
 
-      <InfoContainer lightBg="">
-        <InfoWrapper>
-          <InfoRow imgStart="false">
-            <Column2>
-              <Slide left>
-                <ActivityTemplate
-                  GradientDirection="120deg"
-                  GradientColor1="#a142f5"
-                  GradientColor2="#0000ff"
-                  opacity="0.7"
-                  Photo={Soon}
-                  Title="Winter School"
-                  Description="Winter School is a series of introductory workshops aiming to enrich newcomers with the basic knowledge needed in IEEE's available domains."
-                />
-              </Slide>
-            </Column2>
-          </InfoRow>
-        </InfoWrapper>
-      </InfoContainer>
-
-      <InfoContainer lightBg="">
-        <InfoWrapper>
-          <InfoRow imgStart="false">
-            <Column1>
-              <Slide bottom>
-                <ActivityTemplate
-                  GradientDirection="120deg"
-                  GradientColor1="#a142f5"
-                  GradientColor2="#0000ff"
-                  opacity="0.7"
-                  Photo={Soon}
-                  Title="The Student Professional Awareness Program (SPAx)"
-                  Description="The Student Professional Awareness Program features discussions, virtual and in-person presentations, lectures and a series of activities focused on developing professional skills."
-                />
-              </Slide>
-            </Column1>
-          </InfoRow>
-        </InfoWrapper>
-      </InfoContainer> */}
+     */}
     </>
   );
 };
