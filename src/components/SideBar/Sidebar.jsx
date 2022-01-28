@@ -29,7 +29,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             Awards
           </SidebarLink>
           <SidebarLink to="members" onClick={toggle}>
-            Members
+            Executive Board
           </SidebarLink>
           {/* <SidebarLink to="contact" onClick={toggle}>
             Contact

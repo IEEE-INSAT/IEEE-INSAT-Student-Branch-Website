@@ -100,7 +100,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Members
+                  Executive Board
                 </NavLinks>
               </NavItem>
               {/* <NavItem>

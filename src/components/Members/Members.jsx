@@ -12,7 +12,7 @@ const Members = () => {
     <ul id="members" className="list-members">
       <MemberTemplate
         Photo={Zormati}
-        Name="Med Ali Zormati"
+        Name="Mohamed Ali Zormati"
         Position="Chairman"
         FB="https://www.facebook.com/ma.zormati"
         INSTA="https://www.instagram.com/maz.zormati"

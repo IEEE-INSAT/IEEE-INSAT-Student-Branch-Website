@@ -29,12 +29,12 @@ const Chapters = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={CS} height="170px" width="170px" alt="CS" />
+                <img src={CS} height="185px" width="185px" alt="CS" />
               </a>
               <ChaptersH2>CS Chapter</ChaptersH2>
               <ChaptersP>
                 The INSAT IEEE Computer Society Chapter is known for its scope
-                in advancing the theory, practice, and uses of computing
+                in advancing the uses of computing
                 technologies.
               </ChaptersP>
             </ChaptersCard>
@@ -50,8 +50,8 @@ const Chapters = () => {
               </a>
               <ChaptersH2>RAS Chapter</ChaptersH2>
               <ChaptersP>
-                The INSAT IEEE Robotics and Automation Chapter is known for its
-                technical side specifically in the Robotics and IoT industries.
+                The INSAT IEEE Robotics and Automation Society Chapter is known for its
+                technical side in the Robotics and IoT industries.
               </ChaptersP>
             </ChaptersCard>
           </Bounce>
@@ -130,9 +130,8 @@ const Chapters = () => {
               </a>
               <ChaptersH2>WIE Affinity Group</ChaptersH2>
               <ChaptersP>
-                The INSAT IEEE Women in Engineering Group promotes women
-                engineers to follow their academic interests to a career in
-                engineering.
+                The INSAT IEEE Women in Engineering Affinity Group promotes women
+                engineers to follow their academic interests in engineering.
               </ChaptersP>
             </ChaptersCard>
           </Bounce>
