@@ -7,8 +7,8 @@ h1 {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin: 40px 0;
-  padding: 30px;
+  margin: 50px 0;
+  padding: 100px;
 }
 
 .timeline-container::after {
@@ -138,10 +138,10 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 867px) {
   .timeline-item-content,
   .timeline-item:nth-child(odd) .timeline-item-content {
-    padding: 15px 10px;
+    padding: 35px 20px;
     text-align: center;
     align-items: center;
   }

@@ -1,8 +1,8 @@
 .list-members {
   font-family: sans-serif;
   background: #ffffff;
-  width: 80%;
-  margin: 4% auto;
+  width: 85%;
+  margin: 15% auto;
   display: flex;
   flex-wrap: wrap;
 }
