@@ -114,7 +114,7 @@ const Chapters = () => {
               </a>
               <ChaptersH2>NPSS Chapter</ChaptersH2>
               <ChaptersP>
-                The INSAT IEEE Nuclear and Plasma Sciences Society focuses n all
+                The INSAT IEEE Nuclear and Plasma Sciences Society focuses on all
                 phases of nuclear and plasma sciences.
               </ChaptersP>
             </ChaptersCard>

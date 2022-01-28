@@ -1,7 +1,81 @@
 const AwardsData = [
   {
+    text: "The IEEE Global and Region 8 Student Branch Website Contest Winners",
+    date: "2021",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: ""
+    }
+  },
+
+  {
+    text: "The IEEE Region Student Award Winners",
+    date: "2021",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: ""
+    }
+  },
+  {
+    text: "The IEEE Region 8 Student Branch Chapter of the Year Award",
+    date: "2020",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: ""
+    }
+  },
+  {
+    text: "The 2020 CMD Web Contest Award",
+    date: "2020",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: ""
+    }
+  },
+  {
+    text: "The Industry Engagement Committee Social Media Competition Award",
+    date: "2020",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: ""
+    }
+  },
+  {
     text: "IEEE Regional Exemplary Student Branch",
     date: "2019",
+    category: {
+      tag: "SB",
+      color: "#1da1f2"
+    },
+    link: {
+      url: "",
+      text: ""
+    }
+  },
+
+  {
+    text: "IEEE Regional Exemplary Student Branch",
+    date: "2017",
     category: {
       tag: "SB",
       color: "#1da1f2"
