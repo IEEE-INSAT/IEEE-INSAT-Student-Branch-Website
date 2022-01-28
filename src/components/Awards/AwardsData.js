@@ -195,30 +195,7 @@ const AwardsData = [
       text: ""
     }
   },
-  {
-    text: "Middle East Student Branch Congress DOA Competition Award at MESYP",
-    date: "2015",
-    category: {
-      tag: "SB",
-      color: "#1da1f2"
-    },
-    link: {
-      url: "",
-      text: ""
-    }
-  },
-  {
-    text: "Student Branch Competition Award for organizing TSYP 2015",
-    date: "2014",
-    category: {
-      tag: "SB",
-      color: "#1da1f2"
-    },
-    link: {
-      url: "",
-      text: ""
-    }
-  },
+ 
   {
     text: (
       <span>
