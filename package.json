@@ -1,7 +1,12 @@
 {
-  "name": "client",
+  "name": "ieee-insat-student-branch-website",
+  "description": "IEEE INSAT Student Branch Website",
   "version": "1.2.0",
   "private": true,
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0"
+  },
   "dependencies": {
     "http-proxy-middleware": "^0.19.2",
     "isomorphic-fetch": "^2.2.1",
