@@ -35,7 +35,6 @@ const AppRouter = () => {
         <Route path="/awards" exact component={Awards} />
         <Route path="/faq" exact component={Faq} />
         <Route path="/contact" exact component={Contact} />
-
         <Route path="/error-404" exact component={NotFound} />
         <Route component={NotFound} />
       </Switch>
