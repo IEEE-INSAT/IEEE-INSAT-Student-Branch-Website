@@ -91,7 +91,7 @@ label {
   margin-bottom: 10px;
 }
 
-/*btn btn-primary*/
+
 .btn {
   font-weight: 600;
   font-size: 15px;
@@ -241,7 +241,7 @@ label {
   background: #0d1028;
 }
 
-/*section-title*/
+
 .section-title {
   position: relative;
   margin-bottom: 60px;
@@ -325,7 +325,7 @@ label {
   right: -63px;
 }
 
-/*owl-carousel-btn*/
+
 .owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 0;
   line-height: 0.01;
@@ -362,7 +362,7 @@ label {
   border-color: #00629b;
 }
 
-/*form-control*/
+
 .form-control {
   height: 50px;
   padding: 15px;
@@ -382,9 +382,7 @@ label {
   border-color: #00629b;
 }
 
-/*================================================
-Preloader CSS
-=================================================*/
+
 .preloader {
   position: fixed;
   top: 0;
@@ -484,9 +482,7 @@ Preloader CSS
   }
 }
 
-/*================================================
-Navbar CSS
-=================================================*/
+
 .elkevent-mobile-nav {
   display: none;
 }
@@ -658,9 +654,7 @@ Navbar CSS
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
-/*================================================
-Main Banner CSS
-=================================================*/
+
 .main-banner {
   height: 100vh;
   position: relative;
@@ -1250,9 +1244,7 @@ Main Banner CSS
   box-shadow: unset;
 }
 
-/*================================================
-About CSS
-=================================================*/
+
 .about-area {
   position: relative;
   z-index: 1;
@@ -1332,7 +1324,7 @@ About CSS
   right: 0;
 }
 
-/*about-style-two*/
+
 .about-area-two {
   overflow: hidden;
   position: relative;
@@ -1360,7 +1352,7 @@ About CSS
   margin-bottom: 0;
 }
 
-/*about-style-three*/
+
 .about-area-three {
   position: relative;
   overflow: hidden;
@@ -1425,9 +1417,7 @@ About CSS
   margin-bottom: 0;
 }
 
-/*================================================
-Why Choose Us CSS
-=================================================*/
+
 .why-choose-us {
   position: relative;
   z-index: 1;
@@ -1620,7 +1610,7 @@ Why Choose Us CSS
   opacity: 1;
 }
 
-/*why-choose-style-two*/
+
 .why-choose-us-two {
   max-width: 1920px;
   width: 100%;
@@ -1667,9 +1657,7 @@ Why Choose Us CSS
   top: 0;
 }
 
-/*================================================
-CTA CSS
-=================================================*/
+
 .cta-area {
   background-color: #00629b;
   padding-top: 50px;
@@ -1688,9 +1676,7 @@ CTA CSS
   margin-bottom: 10px;
 }
 
-/*================================================
-Speakers CSS
-=================================================*/
+
 .single-speakers {
   overflow: hidden;
   position: relative;
@@ -1865,7 +1851,7 @@ Speakers CSS
   visibility: visible;
 }
 
-/*Speakers-Style-Two*/
+
 .elkevent-single-speakers {
   overflow: hidden;
   position: relative;
@@ -2031,7 +2017,7 @@ Speakers CSS
   filter: grayscale(100%);
 }
 
-/*Speakers-style-three*/
+
 .speakers-area {
   max-width: 1920px;
   margin-left: auto;
@@ -2177,9 +2163,7 @@ Speakers CSS
   color: #ffffff;
 }
 
-/*================================================
-Schedule CSS
-=================================================*/
+
 .schedule-area {
   position: relative;
   z-index: 1;
@@ -2728,7 +2712,7 @@ Schedule CSS
   margin: 0 15px;
 }
 
-/*schedule-style-two*/
+
 .schedule-slides-item .single-schedule {
   position: relative;
   background: #ffffff;
@@ -3175,7 +3159,7 @@ Schedule CSS
   right: -25px;
 }
 
-/*schedule-style-three*/
+
 .schedule-style-three {
   padding-bottom: 90px;
 }
@@ -3637,7 +3621,7 @@ Schedule CSS
   border-bottom: none;
 }
 
-/*schedule-style-four*/
+
 .schedule-style-four .tab {
   background-color: transparent;
   -webkit-box-shadow: unset;
@@ -3660,9 +3644,7 @@ Schedule CSS
   box-shadow: 0 0 10px 0 rgba(137, 173, 255, 0.35);
 }
 
-/*================================================
-FunFacts CSS
-=================================================*/
+
 .funfacts-area {
   position: relative;
   z-index: 1;
@@ -3709,7 +3691,7 @@ FunFacts CSS
   line-height: 1;
 }
 
-/*funfact-style-two*/
+
 .funFact {
   position: relative;
   padding-left: 60px;
@@ -3758,9 +3740,7 @@ FunFacts CSS
   color: #8dc63f;
 }
 
-/*================================================
-Pricing CSS
-=================================================*/
+
 .pricing-area {
   position: relative;
   z-index: 1;
@@ -3871,7 +3851,7 @@ Pricing CSS
   right: 50%;
 }
 
-/*pricing-style-two*/
+
 .pricing-plan {
   position: relative;
   -webkit-box-shadow: 7px 5px 30px 0 rgba(72, 73, 121, 0.15);
@@ -3986,9 +3966,7 @@ Pricing CSS
   background: #8dc63f;
 }
 
-/*================================================
-Partner CSS
-=================================================*/
+
 .partner-area {
   overflow: hidden;
 }
@@ -4049,9 +4027,7 @@ Partner CSS
   margin-bottom: 40px;
 }
 
-/*================================================
-Blog CSS
-=================================================*/
+
 .blog-area {
   position: relative;
   z-index: 1;
@@ -4166,7 +4142,7 @@ Blog CSS
   line-height: 0.01;
 }
 
-/*blog-style-two*/
+
 .blog-section {
   padding-bottom: 90px;
 }
@@ -4276,9 +4252,7 @@ Blog CSS
   visibility: visible;
 }
 
-/*================================================
-Buy Tickets CSS
-=================================================*/
+
 .buy-tickets-area {
   position: relative;
   z-index: 1;
@@ -4322,9 +4296,7 @@ Buy Tickets CSS
   text-align: right;
 }
 
-/*================================================
-Subscribe CSS
-=================================================*/
+
 .subscribe-area {
   text-align: center;
   position: relative;
@@ -4393,9 +4365,7 @@ Subscribe CSS
   background: #00acee;
 }
 
-/*================================================
-Page Title CSS
-=================================================*/
+
 .page-title-area {
   position: relative;
   z-index: 1;
@@ -4481,9 +4451,7 @@ Page Title CSS
   margin-right: 0;
 }
 
-/*================================================
-404 Error CSS
-=================================================*/
+
 .error-area {
   background-color: #f1f1f1;
   padding: 30px 15px;
@@ -4518,9 +4486,7 @@ Page Title CSS
   margin: 10px 0 20px;
 }
 
-/*================================================
-FAQ CSS
-=================================================*/
+
 .faq-accordion {
   -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
@@ -4578,9 +4544,7 @@ FAQ CSS
   background-color: #f5f5f5;
 }
 
-/*================================================
-Pagination CSS
-=================================================*/
+
 .pagination-area {
   margin-top: 30px;
 }
@@ -4617,9 +4581,7 @@ Pagination CSS
   box-shadow: unset;
 }
 
-/*================================================
-Blog Details CSS
-=================================================*/
+
 .blog-details .post-image {
   margin-bottom: 35px;
 }
@@ -4947,9 +4909,7 @@ Blog Details CSS
   box-shadow: 0 13px 27px 0 rgba(255, 82, 2, 0.11);
 }
 
-/*================================================
-Sidebar CSS
-=================================================*/
+
 .sidebar .widget {
   margin-bottom: 40px;
 }
@@ -5171,9 +5131,7 @@ Sidebar CSS
   border-radius: 50%;
 }
 
-/*================================================
-Contact Us CSS
-=================================================*/
+
 .contact-box {
   background: #ffffff;
   padding: 30px 20px 30px 90px;
@@ -5332,9 +5290,7 @@ Contact Us CSS
   font-size: 15px;
 }
 
-/*================================================
-Footer CSS
-=================================================*/
+
 .footer-area {
   background-color: #0d1028;
   padding-top: 120px;
@@ -5544,9 +5500,7 @@ Footer CSS
   color: #a8a8ad;
 }
 
-/*================================================
-Back To Top CSS
-=================================================*/
+
 .back-to-top {
   position: fixed;
   right: 1.5%;
