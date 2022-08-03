@@ -13,8 +13,6 @@ jobs:
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
-         with:
-          persist-credentials: false
 
       - name: Use Node.js 14
         uses: actions/setup-node@v2-beta
