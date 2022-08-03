@@ -132,16 +132,16 @@ class HomeBanner extends React.Component {
             </div>
             <div id="timer">
               <div id="days">
-                {this.state.days} <span>Days</span>
+                {/* {this.state.days} */}0<span>Days</span>
               </div>
               <div id="hours">
-                {this.state.hours} <span>Hours</span>
+                {/* {this.state.hours}  */}0<span>Hours</span>
               </div>
               <div id="minutes">
-                {this.state.minutes} <span>Minutes</span>
+                {/* {this.state.minutes}  */}0<span>Minutes</span>
               </div>
               <div id="seconds">
-                {this.state.seconds} <span>Seconds</span>
+                {/* {this.state.seconds}  */}0<span>Seconds</span>
               </div>
             </div>
           </div>

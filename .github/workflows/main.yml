@@ -1,0 +1,34 @@
+name: 🚀 DEPLOYING IEEE INSAT Student Branch's Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js 16
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: '16.13.1'
+
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          CI=false npm run build
+          
+      - name: 📂 Deploy in ftp server
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        with:
+          server: ftp.smart-sfax.org
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          local-dir: ./build/
+          server-dir: /insat.ieee.tn/
