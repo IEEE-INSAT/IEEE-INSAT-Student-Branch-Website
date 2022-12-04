@@ -1,11 +1,11 @@
-import React from "react";
-import MainBanner from "../components/Common/MainBanner";
-import Info from "../components/Chapters/Info";
-import GoTop from "../components/Shared/GoTop";
-import Partner from "../components/Common/Partner";
-import Check from "../components/Common/Check";
-import Footer from "../components/Common/Footer";
 import lax from "lax.js";
+import React from "react";
+import Info from "../components/Chapters/Info";
+import Check from "../components/Common/Check";
+import FooterMap from "../components/Common/FooterMap";
+import MainBanner from "../components/Common/MainBanner";
+import Partner from "../components/Common/Partner";
+import GoTop from "../components/Shared/GoTop";
 
 class Chapters extends React.Component {
   constructor(props) {
@@ -33,7 +33,7 @@ class Chapters extends React.Component {
         <Info />
         <Partner />
         <Check />
-        <Footer />
+        <FooterMap />
         <GoTop scrollStepInPx="50" delayInMs="16.66" />
       </React.Fragment>
     );
