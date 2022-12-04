@@ -1,0 +1,116 @@
+@import "../../../variables";
+.welcome {
+  min-height: 100vh;
+  background-color: var(--less-dark-background);
+  display: flex;
+  align-items: center;
+  .left {
+    background-color: $tersiary_color;
+    background-image: url("../../images/hexaDemi1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 73%;
+    min-width: 50px;
+    clip-path: polygon(0 0, 100% 0, 67% 100%, 0% 100%);
+    padding: 150px 0;
+    padding-left: 30px;
+    padding-right: 180px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 500px) {
+      width: 100%;
+      background-repeat: repeat-y;
+    }
+    .container {
+      position: relative;
+    }
+
+    p {
+      color: $complementary_color;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      font-size: 1rem;
+      line-height: 1;
+      font-weight: 300;
+
+      @media (min-width: 1024px) {
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+    }
+    h1 {
+      color: $neutral_grey;
+      font-size: 2rem;
+      line-height: 1;
+      font-weight: 600;
+
+      @media (min-width: 1024px) {
+        font-size: 3.75rem;
+        line-height: 1;
+      }
+    }
+  }
+}
+.right {
+  height: 100vh;
+  width: 800px;
+  min-width: 50px;
+  display: flex;
+  margin-left: -25%;
+  overflow: hidden;
+}
+.between {
+  display: block;
+  position: absolute;
+  top: 70%;
+  left: 57%;
+  transform: translate(-50%) translate(-50%);
+  @media (max-width: 1024) {
+    left: 10%;
+  }
+  @media (max-width: 900px) {
+    left: 47%;
+  }
+  @media (max-width: 500px) {
+    left: 30%;
+  }
+  .hexagone {
+    position: relative;
+
+    width: 70px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 76%, 50% 100%, 0 75%);
+    background: #a5782a;
+    transition: 0.5s;
+    box-shadow: 0 0 50px #cf9735;
+    @media (max-width: 800px) {
+      width: 45px;
+      height: 50px;
+    }
+    span {
+      position: relative;
+      width: 60px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 76%, 50% 100%, 0 75%);
+      background: $complementary_color;
+      transition: 0.5s;
+      z-index: 10px;
+      @media (max-width: 800px) {
+        width: 40px;
+        height: 45px;
+      }
+    }
+    i {
+      color: $neutral_grey;
+      size: 40px;
+    }
+  }
+}

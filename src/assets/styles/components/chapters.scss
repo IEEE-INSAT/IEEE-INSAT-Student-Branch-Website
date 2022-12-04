@@ -1,0 +1,28 @@
+.chapters-section {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding-bottom: 8rem;
+}
+
+.chapters-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 100px;
+  transform: translateY(80px);
+  padding: 0;
+  height: auto;
+}
+.hexagonArea {
+  display: flex;
+}
+.hexagonArea.first {
+  transform: translateY(20px);
+}
+.hexagonArea.last {
+  transform: translateX(125px);
+}
