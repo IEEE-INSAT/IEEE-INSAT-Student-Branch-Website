@@ -1,13 +1,13 @@
 import React from "react";
+import MainBanner from "../components/Common/MainBanner";
 import Info from "../components/About/Info";
-import SBCommittee from "../components/About/SBCommittee";
+import Partner from "../components/Common/Partner";
 import BuyTicket from "../components/Common/Check";
 import Extra from "../components/Common/Extra";
-import FooterMap from "../components/Common/FooterMap";
-import MainBanner from "../components/Common/MainBanner";
-import Partner from "../components/Common/Partner";
-import FunFact from "../components/Common/Stats";
+import Footer from "../components/Common/Footer";
 import GoTop from "../components/Shared/GoTop";
+import FunFact from "../components/Common/Stats";
+import SBCommittee from "../components/About/SBCommittee";
 
 class About extends React.Component {
   render() {
@@ -24,7 +24,7 @@ class About extends React.Component {
         <Partner />
         <BuyTicket />
         <Extra />
-        <FooterMap />
+        <Footer />
         <GoTop scrollStepInPx="50" delayInMs="16.66" />
       </React.Fragment>
     );

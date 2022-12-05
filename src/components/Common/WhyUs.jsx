@@ -12,7 +12,7 @@ class WhyUs extends React.Component {
                 <div className="d-table-cell">
                   <div className="content">
                     <div className="icon">
-                      <i className="icofont-exchange"></i>
+                      <i class="icofont-exchange"></i>
                     </div>
                     <h3>Diversity</h3>
                     <p>
@@ -38,7 +38,7 @@ class WhyUs extends React.Component {
                 <div className="d-table-cell">
                   <div className="content">
                     <div className="icon">
-                      <i className="icofont-group"></i>
+                      <i class="icofont-group"></i>
                     </div>
                     <h3>Networking</h3>
                     <p>
@@ -64,7 +64,7 @@ class WhyUs extends React.Component {
                 <div className="d-table-cell">
                   <div className="content">
                     <div className="icon">
-                      <i className="icofont-bubble-up"></i>
+                      <i class="icofont-bubble-up"></i>
                     </div>
                     <h3>Experience</h3>
                     <p>
