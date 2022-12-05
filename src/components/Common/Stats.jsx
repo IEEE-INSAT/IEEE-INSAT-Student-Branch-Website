@@ -1,7 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
-import Slide from "react-reveal/Slide";
 import VisibilitySensor from "react-visibility-sensor";
+import Slide from "react-reveal/Slide";
 
 class Stats extends React.Component {
   state = {
@@ -23,7 +23,7 @@ class Stats extends React.Component {
               <div className="col-lg-3 col-6 col-sm-6">
                 <div className="single-funfact">
                   <div className="icon">
-                    <i className="icofont-business-man"></i>
+                    <i class="icofont-business-man"></i>
                   </div>
                   <h3 className="odometer">
                     <VisibilitySensor
@@ -47,7 +47,7 @@ class Stats extends React.Component {
               <div className="col-lg-3 col-6 col-sm-6">
                 <div className="single-funfact">
                   <div className="icon">
-                    <i className="icofont-ui-user-group"></i>
+                    <i class="icofont-ui-user-group"></i>
                   </div>
                   <h3 className="odometer">
                     <VisibilitySensor
