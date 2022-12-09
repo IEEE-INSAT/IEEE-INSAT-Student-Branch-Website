@@ -1,0 +1,63 @@
+.activity-container {
+  min-height: 500px;
+  padding: 100px 0;
+}
+
+.activity-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hexagon-gallery {
+  position: relative;
+  width: 600px;
+  height: 454px;
+  display: grid;
+  place-items: center;
+}
+.hexagon-gallery .hexagon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(2px 2px 5px) saturate(1);
+}
+.hexagon-gallery .hexagon .hex {
+  min-width: 144px;
+  height: 159px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.hexagon-gallery .hexagon:nth-child(1) {
+  top: 50px;
+}
+.hexagon-gallery .hexagon:nth-child(2) {
+  top: 190px;
+}
+.hexagon-gallery .hexagon:nth-child(3) {
+  bottom: 0;
+}
+.hexagon-gallery .hexagon .hex img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.activity-content {
+  padding: 150px 0;
+}
+.title {
+  color: #003655;
+}
+.description {
+  color: #0066a1;
+  font-size: 18px;
+}
+@media (max-width: 950px) {
+  .activity-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}

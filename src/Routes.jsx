@@ -1,14 +1,14 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Navigation from "./components/Navigation/Navigation";
-import Activities from "./pages/Activities";
-import NotFound from "./pages/NotFound";
-import Faq from "./pages/Faq";
-import Contact from "./pages/Contact";
-import Chapters from "./pages/Chapters";
 import Awards from "./components/Awards/Awards";
+import Navbar from "./components/Navigation/Navbar";
+import About from "./pages/About";
+import Activities from "./pages/Activities";
+import Chapters from "./pages/Chapters";
+import Contact from "./pages/Contact";
+import Faq from "./pages/Faq";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 
 const renderNavigation = () => {
   if (
@@ -19,7 +19,7 @@ const renderNavigation = () => {
       window.location.pathname === "/error-404"
     )
   ) {
-    return <Navigation />;
+    return <Navbar />;
   }
 };
 

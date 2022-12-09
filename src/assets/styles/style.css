@@ -106,9 +106,10 @@ label {
 
 .btn-primary {
   color: #ffffff;
-  background: #0d1028;
+  background: #003655;
   position: relative;
   z-index: 1;
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
 }
 
 .btn-primary::before,
@@ -148,7 +149,7 @@ label {
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background: #0d1028;
+  background: #003655;
   color: #ffffff;
   -webkit-box-shadow: 0 13px 27px 0 rgba(245, 78, 162, 0.25);
   box-shadow: 0 13px 27px 0 rgba(245, 78, 162, 0.25);
@@ -162,19 +163,19 @@ label {
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active {
-  background: #0d1028;
+  background: #003655;
   color: #ffffff;
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
   opacity: 1;
-  background: #0d1028;
+  background: #003655;
 }
 
 .btn-secondary {
   color: #ffffff;
-  background: #0d1028;
+  background: #003655;
   position: relative;
   z-index: 1;
 }
@@ -318,7 +319,7 @@ label {
 }
 
 .section-title .bar::before {
-  background: #ffa300;
+  background: #cf9735;
   width: 30px;
   right: -63px;
 }
@@ -414,7 +415,7 @@ label {
   bottom: 5px;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: #ffa300;
+  border-top-color: #cf9735;
   -webkit-animation: spin-reverse 0.6s linear infinite;
   animation: spin-reverse 0.6s linear infinite;
 }
@@ -428,7 +429,7 @@ label {
   bottom: 15px;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: #00acee;
+  border-top-color: #d2d5cd;
   -webkit-animation: spin 1s linear infinite;
   animation: spin 1s linear infinite;
 }
@@ -1449,7 +1450,7 @@ label {
   animation: imageAnimation 24s linear infinite 0s;
 }
 
-.why-choose-us .slideshow li:nth-child(1) span {
+/* .why-choose-us .slideshow li:nth-child(1) span {
   background-image: url("../images/activities/IEEEDAY.jpg");
 }
 
@@ -1463,13 +1464,13 @@ label {
   background-image: url("../images/activities/SS.jpg");
   -webkit-animation-delay: 12s;
   animation-delay: 12s;
-}
+} */
 
-.why-choose-us .slideshow li:nth-child(4) span {
+/* .why-choose-us .slideshow li:nth-child(4) span {
   background-image: url("../images/activities/INTEGDAY.jpg");
   -webkit-animation-delay: 18s;
   animation-delay: 18s;
-}
+} */
 
 .col-lg-3:first-child .single-box {
   border-left: none;
@@ -2020,6 +2021,7 @@ label {
   transition: 0.5s;
   -webkit-box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.06);
   box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
 }
 
 .single-speakers-box .speakers-content {
@@ -2058,6 +2060,7 @@ label {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #00629b;
+  border-radius: 5px;
 }
 
 .single-speakers-box .speakers-content .social {
@@ -3700,22 +3703,22 @@ label {
 
 .col-lg-3:nth-child(1) .single-funfact h3,
 .col-lg-3:nth-child(1) .funFact h3 {
-  color: #00629b;
+  color: #0066a1;
 }
 
 .col-lg-3:nth-child(2) .single-funfact h3,
 .col-lg-3:nth-child(2) .funFact h3 {
-  color: #00acee;
+  color: #cf9735;
 }
 
 .col-lg-3:nth-child(3) .single-funfact h3,
 .col-lg-3:nth-child(3) .funFact h3 {
-  color: #ffa300;
+  color: #0096ee;
 }
 
 .col-lg-3:nth-child(4) .single-funfact h3,
 .col-lg-3:nth-child(4) .funFact h3 {
-  color: #8dc63f;
+  color: #6d7067;
 }
 
 .pricing-area {

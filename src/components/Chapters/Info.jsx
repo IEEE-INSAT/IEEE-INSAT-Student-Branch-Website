@@ -1,8 +1,8 @@
 import React from "react";
-import LaxButton from "../Shared/LaxButton";
+import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import Wobble from "react-reveal/Wobble";
-import Fade from "react-reveal/Fade";
+import LaxButton from "../Shared/LaxButton";
 class About extends React.Component {
   render() {
     return (
@@ -317,24 +317,53 @@ class About extends React.Component {
             </div>
           </div>
         </section>
+
         <section className="about-area-three ptb-120 bg-image">
           <div className="container">
             <div className="row h-100 align-items-center">
               <div className="col-lg-6">
                 <div className="about-image">
-                  <img
-                    src={require("../../assets/images/misc/WIE.jpg")}
-                    className="about-img1"
-                    alt="about"
-                  />
-
-                  <LaxButton
-                    buttonText="Visit Website"
-                    link="//wie-insat.ieee.tn"
-                  />
+                  <Slide bottom>
+                    <img
+                      src={require("../../assets/images/misc/PELS.jpg")}
+                      className="about-img1"
+                      alt="about"
+                    />
+                    {/* <LaxButton
+                      buttonText="Visit Website"
+                      link="//ras-insat.ieee.tn"
+                    /> */}
+                  </Slide>
                 </div>
               </div>
 
+              <div className="col-lg-6">
+                <Wobble>
+                  <div className="about-content">
+                    <span>About PELS Chapter</span>
+
+                    <h2>IEEE INSAT Power Electronics Society Chapter</h2>
+
+                    <p>
+                      About IEEE PELS Chapter - INSAT Student Branch The Power
+                      Electronics Society (PELS) is one of the fastest-growing
+                      technical societies of IEEE working on development and
+                      innovation in power electronics technology. Founded in
+                      2022, our chapter works on creating a community of
+                      enthaustis at INSAT that aims to explore the applications
+                      of power electronics whether it is renewable energy, smart
+                      grids, electric cars or consumer electronic
+                    </p>
+                  </div>
+                </Wobble>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="about-area-two ptb-120 bg-image">
+          <div className="container">
+            <div className="row h-100 align-items-center">
               <div className="col-lg-6">
                 <Fade>
                   <div className="about-content">
@@ -356,6 +385,21 @@ class About extends React.Component {
                     </p>
                   </div>
                 </Fade>
+              </div>
+
+              <div className="col-lg-6">
+                <div className="about-image">
+                  <img
+                    src={require("../../assets/images/misc/WIE.jpg")}
+                    className="about-img1"
+                    alt="about"
+                  />
+
+                  <LaxButton
+                    buttonText="Visit Website"
+                    link="//wie-insat.ieee.tn"
+                  />
+                </div>
               </div>
             </div>
           </div>
