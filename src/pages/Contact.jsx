@@ -1,7 +1,7 @@
-import React from "react";
 import "isomorphic-fetch";
-import Footer from "../components/Common/Footer";
+import React from "react";
 import Cta from "../components/Common/Cta";
+import FooterMap from "../components/Common/FooterMap";
 import MainBanner from "../components/Common/MainBanner";
 
 class Contact extends React.Component {
@@ -276,7 +276,7 @@ class Contact extends React.Component {
           </div>
         </section>
         <Cta />
-        <Footer />
+        <FooterMap />
       </React.Fragment>
     );
   }

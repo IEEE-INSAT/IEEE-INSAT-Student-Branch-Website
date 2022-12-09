@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import lax from "lax.js";
+import React from "react";
 import OwlCarousel from "react-owl-carousel3";
-import PlatinumSponsors from "../LaxButton/PlatinumSponsors";
+import { Link } from "react-router-dom";
+import FooterMap from "../components/Common/FooterMap";
 import GoldSponsors from "../LaxButton/GoldSponsors";
-import Footer from "../components/Common/Footer";
+import PlatinumSponsors from "../LaxButton/PlatinumSponsors";
 
 const options = {
   loop: true,
@@ -241,7 +241,7 @@ class Sponsor extends React.Component {
             </div>
           </div>
         </section>
-        <Footer />
+        <FooterMap />
       </React.Fragment>
     );
   }

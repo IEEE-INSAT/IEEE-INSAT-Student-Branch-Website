@@ -1,10 +1,9 @@
-import React from "react";
-import MainBanner from "../Common/MainBanner";
-import Timeline from "./Timeline";
-import GoTop from "../Shared/GoTop";
 import lax from "lax.js";
-import Partner from "../Common/Partner";
-import Footer from "../Common/Footer";
+import React from "react";
+import FooterMap from "../Common/FooterMap";
+import MainBanner from "../Common/MainBanner";
+import GoTop from "../Shared/GoTop";
+import Timeline from "./Timeline";
 
 class Awards extends React.Component {
   constructor(props) {
@@ -30,8 +29,8 @@ class Awards extends React.Component {
           section="Awards"
         />
         <Timeline />
-        <Partner />
-        <Footer />
+        {/* <Partner /> */}
+        <FooterMap />
         <GoTop scrollStepInPx="50" delayInMs="16.66" />
       </React.Fragment>
     );

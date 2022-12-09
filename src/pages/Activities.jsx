@@ -1,9 +1,7 @@
 import React from "react";
-import MainBanner from "../components/Common/MainBanner";
 import About from "../components/Activities/About";
-import Partner from "../components/Common/Partner";
-import Extra from "../components/Common/Extra";
-import Footer from "../components/Common/Footer";
+import FooterMap from "../components/Common/FooterMap";
+import MainBanner from "../components/Common/MainBanner";
 import GoTop from "../components/Shared/GoTop";
 
 class Activities extends React.Component {
@@ -16,9 +14,9 @@ class Activities extends React.Component {
           section="Activities"
         />
         <About />
-        <Partner />
-        <Extra />
-        <Footer />
+        {/* <Partner />
+        <Extra /> */}
+        <FooterMap />
         <GoTop scrollStepInPx="50" delayInMs="16.66" />
       </React.Fragment>
     );

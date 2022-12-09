@@ -1,15 +1,13 @@
-import React from "react";
-import HomeBanner from "../components/Home/HomeBanner";
-import AboutSYP from "../components/Home/AboutSYP";
-import WhyUs from "../components/Common/WhyUs";
-import Chapters from "../components/Chapters/Chapters";
-import GoTop from "../components/Shared/GoTop";
-import Footer from "../components/Common/Footer";
-import Stats from "../components/Common/Stats";
 import lax from "lax.js";
-import Partner from "../components/Common/Partner";
+import React from "react";
+import SBCommittee from "../components/About/SBCommittee";
+import Chapters from "../components/Chapters/Chapters";
+import FooterMap from "../components/Common/FooterMap";
+import Stats from "../components/Common/Stats";
+import WhyUs from "../components/Common/WhyUs";
+import HomeBanner from "../components/Home/HomeBanner";
 import LatestNews from "../components/Home/LatestNews";
-import Check from "../components/Common/Check";
+import GoTop from "../components/Shared/GoTop";
 
 class Home extends React.Component {
   constructor(props) {
@@ -34,10 +32,12 @@ class Home extends React.Component {
         <Stats />
         <Chapters />
         <WhyUs />
-        <AboutSYP />
-        <Partner />
-        <Check />
-        <Footer />
+        <SBCommittee />
+        {/* <AboutSYP /> */}
+
+        {/* <Partner /> */}
+        {/* <Check /> */}
+        <FooterMap />
         <GoTop scrollStepInPx="50" delayInMs="16.66" />
       </React.Fragment>
     );

@@ -1,0 +1,118 @@
+.chapter-cell {
+  height: 250px;
+  width: 250px;
+  //background-color: #002184;
+  margin: 0 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  cursor: pointer;
+}
+.social-media {
+  position: absolute;
+  bottom: -200px;
+  width: 100%;
+  height: 45%;
+  // background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  transition: 0.7s;
+  text-align: center;
+}
+img {
+  height: 150px;
+  width: 150px;
+}
+.chapter-cell.CS {
+  background: linear-gradient(#faa41b, #c47a04);
+}
+.chapter-cell.EMBS {
+  background: linear-gradient(#002184, #000e38);
+}
+.chapter-cell.IAS {
+  background: linear-gradient(#1f5d39, #327a50);
+}
+.chapter-cell.NPSS {
+  background: linear-gradient(#9a0000, #e70000);
+}
+.chapter-cell.PELS {
+  background: linear-gradient(#cc153f, #9e1031);
+}
+.chapter-cell.PES {
+  background: linear-gradient(#2aab49, #3ace5d);
+}
+.chapter-cell.RAS {
+  background: linear-gradient(#98012e, #cb013d);
+}
+.chapter-cell.WIE {
+  background: linear-gradient(#752f8a, #a12aac);
+}
+
+.chapter-img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.chapter-cell:hover {
+  transform: scale(0.8);
+}
+.chapter-cell:hover .social-media {
+  bottom: 0;
+}
+.icon-list {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.icon-list li {
+  list-style: none;
+}
+.icon-list li a {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: 0 7px;
+  border-radius: 50%;
+  // padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: 0.5s;
+}
+.icon-list li a:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+.icon-list li a .fab {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #003655;
+  transition: 0.5s;
+}
+
+ul li:nth-child(1) a:hover .fab {
+  color: #3b5998;
+}
+
+ul li:nth-child(2) a:hover .fab {
+  color: #dd4b39;
+}
+
+ul li:nth-child(3) a:hover .fab {
+  color: #e4405f;
+}

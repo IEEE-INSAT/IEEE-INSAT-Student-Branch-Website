@@ -2,12 +2,12 @@ import React from "react";
 import {
   Accordion,
   AccordionItem,
-  AccordionItemHeading,
   AccordionItemButton,
+  AccordionItemHeading,
   AccordionItemPanel
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
-import Footer from "../components/Common/Footer";
+import FooterMap from "../components/Common/FooterMap";
 import MainBanner from "../components/Common/MainBanner";
 
 class Faq extends React.Component {
@@ -178,7 +178,7 @@ class Faq extends React.Component {
           </div>
         </section>
 
-        <Footer />
+        <FooterMap />
       </React.Fragment>
     );
   }
