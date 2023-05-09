@@ -24,7 +24,7 @@ class Chapters extends React.Component {
     return (
       <React.Fragment>
         <MainBanner
-          bannerTitle="Chapters"
+          bannerTitle="Subunits"
           bannerDescription="Discover our Chapters and Affinity Groups!"
           section="Chapters"
         />

@@ -35,7 +35,7 @@ class Stats extends React.Component {
                     >
                       <CountUp
                         start={0}
-                        end={this.state.didViewCountUp ? 65 : 0}
+                        end={this.state.didViewCountUp ? 57 : 0}
                         duration={3}
                       />
                     </VisibilitySensor>
@@ -59,7 +59,7 @@ class Stats extends React.Component {
                     >
                       <CountUp
                         start={0}
-                        end={this.state.didViewCountUp ? 532 : 0}
+                        end={this.state.didViewCountUp ? 305 : 0}
                         duration={3}
                       />
                     </VisibilitySensor>

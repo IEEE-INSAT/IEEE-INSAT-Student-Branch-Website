@@ -18,12 +18,7 @@ export default function FooterMap() {
           <Link className="navbar-logo" to="/">
             <img src={logo} alt="logo" />
           </Link>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
+
           <ul className="socials">
             <li>
               <a
@@ -47,7 +42,7 @@ export default function FooterMap() {
               </a>
             </li>
             <li>
-              <a href="mailto:sb.insat@ieee.org" className="fa">
+              <a href="mailto:ieee@insat.ucar.tn" className="fa">
                 <i className="icofont-email"></i>
               </a>
             </li>
@@ -90,7 +85,7 @@ export default function FooterMap() {
       </div>
       <div className="footer-bottom">
         <p>
-          <i className="icofont-copyright"></i> IEEE INSAT Student Branch 2022
+          <i className="icofont-copyright"></i> IEEE INSAT Student Branch 2023
         </p>
       </div>
     </footer>

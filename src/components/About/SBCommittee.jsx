@@ -43,15 +43,15 @@ class SBCommittee extends React.Component {
                   <div className="single-speakers-box">
                     <div className="speakers-image">
                       <img
-                        src={require("../../assets/images/members/Mahdi.jpg")}
+                        src={require("../../assets/images/members/Kais.jpg")}
                         alt="speakers"
                       />
                     </div>
 
                     <div className="speakers-content">
                       <h3>
-                        <a href="https://www.facebook.com/ghorbelmahdi0">
-                          Mahdi Ghorbel
+                        <a href="https://www.facebook.com/kais.chammakhi.7">
+                          Kais Chammakhi
                         </a>
                       </h3>
                       <span>Chairman</span>
@@ -59,7 +59,7 @@ class SBCommittee extends React.Component {
                       <ul className="social">
                         <li>
                           <a
-                            href="https://www.facebook.com/ghorbelmahdi0"
+                            href="https://www.facebook.com/kais.chammakhi.7"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -68,7 +68,7 @@ class SBCommittee extends React.Component {
                         </li>
                         <li>
                           <a
-                            href="https://www.instagram.com/mahdighorbel/"
+                            href="https://www.instagram.com/kaischammakhi/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -77,7 +77,7 @@ class SBCommittee extends React.Component {
                         </li>
                         <li>
                           <a
-                            href="https://www.linkedin.com/in/mahdi-ghorbel-0b102a170/"
+                            href="https://www.linkedin.com/in/kais-chammakhi-473129227/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -86,7 +86,7 @@ class SBCommittee extends React.Component {
                         </li>
                         <li>
                           <a
-                            href="mailto:zormati@ieee.org"
+                            href="mailto:kaischammakhi@ieee.org"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="linkedin"
@@ -147,7 +147,7 @@ class SBCommittee extends React.Component {
                         </li>
                         <li>
                           <a
-                            href="mailto:hend.kmiha@ieee.org"
+                            href="mailto:Imen.kaabachi@ieee.org"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="linkedin"
@@ -172,16 +172,16 @@ class SBCommittee extends React.Component {
 
                     <div className="speakers-content">
                       <h3>
-                        <a href="https://www.linkedin.com/in/imen-kaabachi-07a288224/">
+                        <a href="https://www.facebook.com/khadharhela">
                           Hela Khadhar
                         </a>
                       </h3>
-                      <span>Vice Chair Membership Activities</span>
+                      <span>Vice Chair Technical Activities</span>
 
                       <ul className="social">
                         <li>
                           <a
-                            href="https://www.linkedin.com/in/imen-kaabachi-07a288224/"
+                            href="https://www.facebook.com/khadharhela"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -208,7 +208,7 @@ class SBCommittee extends React.Component {
                         </li>
                         <li>
                           <a
-                            href="mailto:mariemmanai@ieee.org"
+                            href="mailto:hela.khaddar@ieee.org"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="linkedin"
@@ -221,81 +221,21 @@ class SBCommittee extends React.Component {
                   </div>
                 </div>
               </Bounce>
+
               <Bounce right>
                 <div className="col-lg-4 col-md-6">
                   <div className="single-speakers-box">
                     <div className="speakers-image">
                       <img
-                        src={require("../../assets/images/members/Kais.jpg")}
+                        src={require("../../assets/images/members/sahar.jpg")}
                         alt="speakers"
                       />
                     </div>
 
                     <div className="speakers-content">
                       <h3>
-                        <a href="https://www.facebook.com/kais.chammakhi.7">
-                          Kais Chammakhi
-                        </a>
-                      </h3>
-                      <span>Vice Chair Technical Activities</span>
-
-                      <ul className="social">
-                        <li>
-                          <a
-                            href="https://www.facebook.com/kais.chammakhi.7"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="icofont-facebook"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.instagram.com/kaischammakhi/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="icofont-instagram"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/in/kais-chammakhi-473129227/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="icofont-linkedin"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="mailto:zormati@ieee.org"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="linkedin"
-                          >
-                            <i className="icofont-email"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </Bounce>
-              <Bounce right>
-                <div className="col-lg-4 col-md-6">
-                  <div className="single-speakers-box">
-                    <div className="speakers-image">
-                      <img
-                        src={require("../../assets/images/members/Rayene.jpg")}
-                        alt="speakers"
-                      />
-                    </div>
-
-                    <div className="speakers-content">
-                      <h3>
-                        <a href="https://www.facebook.com/nesrine.mademoizlle1">
-                          Rayene Braik
+                        <a href="https://www.facebook.com/sahar.bettaieb.9">
+                          Sahar Bettaieb
                         </a>
                       </h3>
                       <span>Media & Communication Manager</span>
@@ -303,7 +243,7 @@ class SBCommittee extends React.Component {
                       <ul className="social">
                         <li>
                           <a
-                            href="https://www.facebook.com/nesrine.mademoizlle1"
+                            href="https://www.facebook.com/sahar.bettaieb.9"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -312,7 +252,7 @@ class SBCommittee extends React.Component {
                         </li>
                         <li>
                           <a
-                            href="https://www.instagram.com/rayenebraik/"
+                            href="https://www.instagram.com/sahar_btaieb/?igshid=NTc4MTIwNjQ2YQ%3D%3D&fbclid=IwAR3d6pRtPng3Ia1qrCYVWS4EGxTrLXAzRGiB5TPrvrxCDosj6-1bKZIJN4U"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -321,7 +261,7 @@ class SBCommittee extends React.Component {
                         </li>
                         <li>
                           <a
-                            href="https://www.linkedin.com/in/rayene-braik-094aa121b/"
+                            href="https://www.linkedin.com/in/sahar-bettaieb-976888209?fbclid=IwAR2HI-F68XC8suFP-pXQ4t942q-S-WvJjx6VBMY7AQv7D80ijIRo7EaSbd8"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -330,7 +270,7 @@ class SBCommittee extends React.Component {
                         </li>
                         <li>
                           <a
-                            href="mailto:amirabecheikh12@gmail.com"
+                            href="mailto:saharbetaieb@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="linkedin"
@@ -400,7 +340,7 @@ class SBCommittee extends React.Component {
                         </li>
                         <li>
                           <a
-                            href="mailto:sirajeddineaissa@ieee.org"
+                            href="mailto:safakedidi@ieee.org"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="linkedin"
@@ -461,7 +401,7 @@ class SBCommittee extends React.Component {
                         </li>
                         <li>
                           <a
-                            href="mailto:zeinebtekaya@ieee.org"
+                            href="mailto:ayasouissi@ieee.org"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="linkedin"

@@ -87,13 +87,13 @@ var swiper = new Swiper(".blog-slider", {
                   </div>
                   <div className="blog-slider__img">
                     <img
-                      src={require("../../assets/images/latestNews/1.jpg")}
+                      src={require("../../assets/images/latestNews/tsyp.jpg")}
                       alt=""
                     ></img>
 
                     <div className="right">
                       <span>
-                        <a href="https://www.facebook.com/events/881496119882944/?ref=newsfeed">
+                        <a href="https://www.facebook.com/IeeeInsatStudentBranch/posts/pfbid02Zn4Jrpw8no2u1rZUxGuxqjb5fuaSdTXKmqoN61or23pk3xoTuV1x491JqbUKdqv6l">
                           Explore...
                         </a>
                       </span>
@@ -101,18 +101,20 @@ var swiper = new Swiper(".blog-slider", {
                   </div>
 
                   <div className="blog-slider__content">
-                    <span className="blog-slider__code">27 Nov-2 Dec 2022</span>
-                    <div className="blog-slider__title">AI 101</div>
+                    <span className="blog-slider__code">19-20-21 Dec 2022</span>
+                    <div className="blog-slider__title">TSYPX Event</div>
                     <div className="blog-slider__text">
-                      AI 101 is all about Machine Learning, Computer Vision, and
-                      anything AI related! Both IEEE AAST Alex SB and IEEE INSAT
-                      SB will have their versions of the event, however, the
-                      content stays the same for both.
+                      We are proud to announce that, after two years of absence,
+                      our coming back didn't go unnoticed. We won several
+                      challenges and awards 🏆: Third place PES Chapter, First
+                      place CAS Challenge, IAS Non technical Challenge Third
+                      place SIGHT Challenge Finally, we were the TOP 1 🥇
+                      finalists in collaboration with IEEE SUPCOM SB
                     </div>
                   </div>
                 </div>
 
-                <div className="blog-slider__item swiper-slide">
+                {/* <div className="blog-slider__item swiper-slide">
                   <div className="left">
                     <span></span>
                   </div>
@@ -144,9 +146,9 @@ var swiper = new Swiper(".blog-slider", {
                       (INSAT) - Tunisia Section
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="blog-slider__item swiper-slide">
+                {/* <div className="blog-slider__item swiper-slide">
                   <div className="left">
                     <span></span>
                   </div>
@@ -179,7 +181,7 @@ var swiper = new Swiper(".blog-slider", {
                       fullest
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <div className="blog-slider__pagination"></div>
