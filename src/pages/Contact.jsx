@@ -104,8 +104,8 @@ class Contact extends React.Component {
 
                   <div className="content">
                     <h4>Phone</h4>
-                    <p>(+216) 92 712 714</p>
-                    <p>(+216) 58 455 096</p>
+                    <p>(+216) 40 117 357</p>
+                    <p>(+216) 29 212 206</p>
                   </div>
                 </div>
               </div>
@@ -118,8 +118,8 @@ class Contact extends React.Component {
 
                   <div className="content">
                     <h4>Email</h4>
-                    <p>sb.insat@ieee.org</p>
-                    <p>zormati@ieee.org</p>
+                    <p>ieee@insat.ucar.tn</p>
+                    <p>kaischammakhi@ieee.org</p>
                   </div>
                 </div>
               </div>

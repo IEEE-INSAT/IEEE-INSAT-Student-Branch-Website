@@ -7,7 +7,6 @@ class Cta extends React.Component {
           <div className="row h-100 align-items-center">
             <div className="col-lg-8">
               <h3>Check Out Our Biggest Event So Far!</h3>
-              <span>Region 8 IEEE SYP is on its way. Stay Tuned! </span>
             </div>
 
             <div className="col-lg-4 text-right">
