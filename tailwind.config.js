@@ -11,9 +11,5 @@ module.exports = {
     },
   },
 
-  plugins: [
-    require("@tailwindcss/forms"),
-    require("preline/plugin"),
-    require("@codaworks/react-glow/tailwind"),
-  ],
+  plugins: [require("@tailwindcss/forms"), require("preline/plugin")],
 };
