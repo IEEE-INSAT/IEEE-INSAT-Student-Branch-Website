@@ -1,8 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,ts,jsx,tsx}", "./node_modules/preline/preline.js"],
   theme: {
-    extend: {}
+    extend: {
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+    },
   },
-  plugins: []
+
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("preline/plugin"),
+    require("@codaworks/react-glow/tailwind"),
+  ],
 };
