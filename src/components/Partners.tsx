@@ -18,7 +18,6 @@ const neutralCompanyLogos = [
   "https://www.orange.tn/images/logo.svg",
   "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Deutsche_Gesellschaft_f%C3%BCr_Internationale_Zusammenarbeit_Logo.svg/2560px-Deutsche_Gesellschaft_f%C3%BCr_Internationale_Zusammenarbeit_Logo.svg.png",
   "https://www.ilboursa.com/handlers/image_news_get.ashx?id=A60A89AB-2BAA-411A-86F2-465BAF940F17",
-  "https://yellowsys.fr/wp-content/uploads/2021/01/Yellowsys-Logo-transparence-Sans-B-2048x1020.png",
   "https://www.eina4jobs.org/sites/default/files/styles/large/public/2022-04/313d09e5-6952-4a8a-9e8f-a289e2851be1_1.png?itok=KYfs2tOF",
   "https://www.indabaxtunisia.com/2021/wp-content/uploads/sites/3/2021/09/LogoDTC.png",
   "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701461337/ahrfevgopy2alsdayu2j.png",
@@ -26,6 +25,7 @@ const neutralCompanyLogos = [
   "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701461588/lyg24z6aj9eogwlqky3s.png",
   "https://www.gat.com.tn/sites/default/files/inline-images/logo_0.png",
   "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_arms_of_Tunisia.svg/1200px-Coat_of_arms_of_Tunisia.svg.png",
+  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701539584/je2czfzu930jixpp01s4.png"
 ];
 
 const COMMON_LOGO_STYLES =
