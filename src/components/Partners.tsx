@@ -25,11 +25,11 @@ const neutralCompanyLogos = [
   "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701461588/lyg24z6aj9eogwlqky3s.png",
   "https://www.gat.com.tn/sites/default/files/inline-images/logo_0.png",
   "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_arms_of_Tunisia.svg/1200px-Coat_of_arms_of_Tunisia.svg.png",
-  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701539584/je2czfzu930jixpp01s4.png"
+  "https://res.cloudinary.com/dzgxf5tsm/image/upload/v1701539584/je2czfzu930jixpp01s4.png",
 ];
 
 const COMMON_LOGO_STYLES =
-  "max-w-[8rem] max-h-[4rem] object-contain  saturate-0 overflow-hidden";
+  "max-w-[8rem] max-h-[4rem] object-contain  saturate-0 transition-all hover:filter-none overflow-hidden";
 const CompanyPartners = () => {
   return (
     <>
