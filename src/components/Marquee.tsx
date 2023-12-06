@@ -85,6 +85,9 @@ const MarqueeImages = (props: { imagesUrls: string[] }) => {
           key={url}
           src={url}
           alt="Marquee Image"
+          onError={(e) => {
+            e.currentTarget.remove();
+          }}
         />
       ))}
     </>

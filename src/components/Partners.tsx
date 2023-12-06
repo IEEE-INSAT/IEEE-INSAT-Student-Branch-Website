@@ -48,6 +48,7 @@ const CompanyPartners = () => {
               <img
                 src={logo}
                 alt="logo"
+                onError={(e) => e.currentTarget.remove()}
                 key={index}
                 className={`${COMMON_LOGO_STYLES} invert dark:invert-0`}
               />
@@ -56,6 +57,7 @@ const CompanyPartners = () => {
               <img
                 src={logo}
                 alt="logo"
+                onError={(e) => e.currentTarget.remove()}
                 key={index}
                 // className="max-w-[10rem] max-h-24 dark:invert object-contain  saturate-0 rounded-xl overflow-hidden "
                 className={`${COMMON_LOGO_STYLES} dark:invert`}
@@ -65,6 +67,7 @@ const CompanyPartners = () => {
               <img
                 src={logo}
                 alt="logo"
+                onError={(e) => e.currentTarget.remove()}
                 key={logo}
                 // className="max-w-[10rem] max-h-24 object-contain  saturate-0 rounded-xl overflow-hidden"
                 className={`${COMMON_LOGO_STYLES}`}
