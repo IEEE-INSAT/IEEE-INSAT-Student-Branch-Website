@@ -6,13 +6,17 @@ import Team from "../components/Team";
 import Partners from "../components/Partners";
 import Contact from "../components/Contact";
 import Masonry from "../components/Masonry";
+import { Marquee } from "../components/Marquee";
 
 export default function Landing() {
   return (
     <>
       <Hero />
+
       <Masonry />
+
       <Vision />
+      <Marquee />
       <Numbers />
       <Chapters />
       <Partners />

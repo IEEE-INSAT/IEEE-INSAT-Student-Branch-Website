@@ -20,7 +20,7 @@ function ChapterItem(props: { img?: string }) {
       {/*    />*/}
       {/*</svg>*/}
       <img
-        className="dark:brightness-0 dark:invert max-h-16"
+        className="dark:brightness-0 dark:invert max-h-16 hover:invert-0 hover:brightness-100 transition-all"
         src={props.img}
         alt={"chapter logo"}
       />
