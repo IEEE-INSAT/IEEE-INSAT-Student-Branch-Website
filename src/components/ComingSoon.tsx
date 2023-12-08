@@ -7,7 +7,6 @@ export default function ComingSoon() {
         <h1 className="block text-6xl font-bold text-gray-800 sm:text-7xl dark:text-white mb-8">
           Work in progress
         </h1>
-        <h1 className="block text-2xl font-bold text-white" />
         <p className="mt-3 text-gray-600 dark:text-gray-400">
           Sorry, This section is still under construction.
         </p>

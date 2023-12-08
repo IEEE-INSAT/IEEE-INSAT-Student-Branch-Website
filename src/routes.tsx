@@ -1,8 +1,7 @@
 import { createBrowserRouter, Outlet, RouteObject } from "react-router-dom";
 import PageLayout from "./components/PageLayout";
 import Landing from "./pages/Landing";
-import OurStory from "./pages/OurStory";
-import SBMap from "./pages/SBMap";
+
 import Providers from "./providers";
 import ComingSoon from "./components/ComingSoon";
 
