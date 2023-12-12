@@ -32,7 +32,7 @@ export default function Contact() {
                       htmlFor="hs-lastname-contacts-1"
                       className="block mb-2 text-sm text-gray-700 font-medium dark:text-white"
                     >
-                      Last Name
+                      Full Name
                     </label>
                     <input
                       type="text"
