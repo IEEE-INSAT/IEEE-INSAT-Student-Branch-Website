@@ -3,9 +3,9 @@ import { Logo } from "./header";
 
 const Footer = () => {
   return (
-    <footer className="w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto relative bg-gradient-to-t dark:from-violet-950/20 from-violet-300/50 to-transparent">
+    <footer className="w-full  py-10 px-4 sm:px-6 lg:px-8 mx-auto relative bg-gradient-to-t dark:from-violet-950/20 from-violet-300/50 to-transparent">
       {/* Grid */}
-      <div className="text-center z-10">
+      <div className="text-center z-10 max-w-[85rem] mx-auto">
         <div className={"flex justify-center items-center"}>
           <a
             className="w-fit mx-auto  dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
