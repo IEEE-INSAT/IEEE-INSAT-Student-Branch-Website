@@ -20,7 +20,7 @@ export default function Contact() {
               Fill in the form
             </h2>
             <form
-              action="mailto:ieee@insat.rnu.tn"
+              action="mailto:sn.insat@ieee.org"
               method="get"
               encType="text/plain"
             >
