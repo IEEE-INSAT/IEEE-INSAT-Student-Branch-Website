@@ -29,7 +29,7 @@ const neutralCompanyLogos = [
 ];
 
 const COMMON_LOGO_STYLES =
-  "max-w-[8rem] max-h-[4rem] object-contain  saturate-0 transition-all hover:filter-none overflow-hidden";
+  "max-w-[8rem] max-h-[4rem] object-contain  saturate-0 dark:hover:filter-none hover:filter-none overflow-hidden";
 const CompanyPartners = () => {
   return (
     <>
@@ -50,7 +50,7 @@ const CompanyPartners = () => {
                 alt="logo"
                 onError={(e) => e.currentTarget.remove()}
                 key={index}
-                className={`${COMMON_LOGO_STYLES} invert dark:invert-0`}
+                className={`invert dark:invert-0 ${COMMON_LOGO_STYLES} `}
               />
             )),
             DarkCompanyLogos.map((logo, index) => (
@@ -60,7 +60,7 @@ const CompanyPartners = () => {
                 onError={(e) => e.currentTarget.remove()}
                 key={index}
                 // className="max-w-[10rem] max-h-24 dark:invert object-contain  saturate-0 rounded-xl overflow-hidden "
-                className={`${COMMON_LOGO_STYLES} dark:invert`}
+                className={`dark:invert ${COMMON_LOGO_STYLES} `}
               />
             )),
             neutralCompanyLogos.map((logo, index) => (
