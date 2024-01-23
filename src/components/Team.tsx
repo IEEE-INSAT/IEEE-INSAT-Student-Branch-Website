@@ -6,7 +6,7 @@ import { fit } from "@cloudinary/url-gen/actions/resize";
 const team: [string, string, string][] = [
   ["Mahdi Chaari", "Chairman", "xykmv80ccatoi8829hh6"],
   ["Adam Dey", "Vice Chair Technical Activities", "nzthnxyehndaic0xaaiu"],
-  ["Faten Ben Rejeb", "Vice Chair Membership", "Board/aqth4yoe4ldtff7pytyb"],
+  ["Faten Ben Rejeb", "Vice Chair Membership", "Board/yc2tsslim49i2fqftard"],
   ["Wissal Khaled", "General Secretary", "nnxev0gvbylinyaf3e1f"],
   ["Ghada Daghmoura", "Treasurer", "kzkwcyftdtjxg4s2uiyk"],
   ["Mohammed Hassan Amara", "Webmaster", "ibmo5mmxplv99nc2q5xj"],
